@@ -16,7 +16,8 @@ namespace eFashionShop.Controllers.AdminController
         public async Task<IActionResult> Index()
         {
             var data = _contactService.GetAll();
-            return View(data.Result);
+            var res = data.Result;
+            return View(res);
         }
 
         [HttpGet]

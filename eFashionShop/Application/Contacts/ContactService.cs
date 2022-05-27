@@ -26,11 +26,22 @@ namespace eFashionShop.Application.Contacts
                 Name = res.Name,
                 Email = res.Email,
                 PhoneNumber = res.PhoneNumber,
+                Hotline = res.Hotline,
+                Address = res.Address,
+                Website = res.Website,
                 Message = res.Message,
+                Default = res.Default,
                 Status = Data.Enums.Status.InActive,
             };
             _context.Contacts.Add(contact);
             return await _context.SaveChangesAsync() > 0;
+        }
+
+        public async Task<Contact> Default()
+        {
+            var data = from c in _context.Contacts where c.Default == true select c;
+            var res = await data.FirstOrDefaultAsync();
+            return await data.FirstOrDefaultAsync();
         }
 
         public async Task<bool> Delete(int id)
@@ -45,6 +56,11 @@ namespace eFashionShop.Application.Contacts
         {
             var res = from c in _context.Contacts select c;
             return await res.ToListAsync();
+        }
+
+        public Task<bool> SetDefault(int id)
+        {
+            throw new System.NotImplementedException();
         }
 
         public async Task<bool> Update(Contact res)

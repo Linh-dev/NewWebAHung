@@ -1111,4 +1111,8 @@ E:\Chung\EFashionShop\eFashionShop\eFashionShop\obj\Debug\net6.0\eFashionShop.dl
 E:\Chung\EFashionShop\eFashionShop\eFashionShop\obj\Debug\net6.0\ref\eFashionShop.dll
 E:\Chung\EFashionShop\eFashionShop\eFashionShop\obj\Debug\net6.0\eFashionShop.pdb
 E:\Chung\EFashionShop\eFashionShop\eFashionShop\obj\Debug\net6.0\eFashionShop.genruntimeconfig.cache
+E:\Chung\EFashionShop\eFashionShop\eFashionShop\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\Chung\EFashionShop\eFashionShop\eFashionShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Chung\EFashionShop\eFashionShop\eFashionShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Chung\EFashionShop\eFashionShop\eFashionShop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\Chung\EFashionShop\eFashionShop\eFashionShop\obj\Debug\net6.0\eFashionShop.csproj.AssemblyReference.cache

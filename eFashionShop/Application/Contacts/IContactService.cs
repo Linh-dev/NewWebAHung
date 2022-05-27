@@ -9,6 +9,8 @@ namespace eFashionShop.Application.Contacts
     {
         Task<bool> Update(Contact res);
         Task<List<Contact>> GetAll();
+        Task<Contact> Default();
+        Task<bool> SetDefault(int id);
         Task<bool> Delete(int id);
         Task<bool> Create(ContactCreateVm res);
     }

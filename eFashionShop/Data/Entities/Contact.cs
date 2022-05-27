@@ -16,6 +16,7 @@ namespace eFashionShop.Data.Entities
         public string Address { set; get; }
         public string Website { set; get; }
         public string Message { set; get; }
+        public bool Default { get; set; }
         public Status Status { set; get; }
     }
 }

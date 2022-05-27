@@ -29,7 +29,9 @@ namespace eFashionShop.Controllers.AdminController
         [HttpGet]
         public async Task<IActionResult> Login()
         {
+            
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            HttpContext.Session.Remove("Token");
             return View();
         }
 

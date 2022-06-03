@@ -122,8 +122,7 @@ namespace eFashionShop.Application.Products
                             from pic in ppic.DefaultIfEmpty()
                             join c in _context.Categories on pic.CategoryId equals c.Id into picc
                             from c in picc.DefaultIfEmpty()
-                            join pi in _context.ProductImages on p.Id equals pi.ProductId into ppi
-                            from pi in ppi.DefaultIfEmpty()
+                            join pi in _context.ProductImages on p.Id equals pi.ProductId where pi.IsDefault == true
                             select new { p, pic, pi };
                 //2. filter
                 query = query.Where(p => p.pic.CategoryId == request.CategoryId);
@@ -156,8 +155,7 @@ namespace eFashionShop.Application.Products
             {
                 //1. Select join
                 var query = from p in _context.Products
-                            join pi in _context.ProductImages on p.Id equals pi.ProductId into ppi
-                            from pi in ppi.DefaultIfEmpty()
+                            join pi in _context.ProductImages on p.Id equals pi.ProductId where pi.IsDefault == true
                             select new { p, pi };
                 //2. filter
                 if (!string.IsNullOrEmpty(request.Keyword))

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oyjROxMeSBCP0njE/62JpjsQHifukOuzcQ+QF3JJ87Q=",
+  "Hash": "lclP7MrGMo9m1tlbPC2CtDCcqd+65CnHmWOfAipjlrI=",
   "Source": "eFashionShop",
   "BasePath": "_content/eFashionShop",
   "Mode": "Default",
@@ -1411,6 +1411,23 @@
       "OriginalItemSpec": "wwwroot\\user-content\\141ce69e-c968-49ae-ac60-4a4c7f847c47.png"
     },
     {
+      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\3238e5f2-61b5-4b3e-9f78-78c5183a990b.png",
+      "SourceId": "eFashionShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "BasePath": "_content/eFashionShop",
+      "RelativePath": "user-content/3238e5f2-61b5-4b3e-9f78-78c5183a990b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user-content\\3238e5f2-61b5-4b3e-9f78-78c5183a990b.png"
+    },
+    {
       "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\902ffcbf-a1da-418e-81cf-36367ef14226.jpg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
@@ -1426,6 +1443,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\user-content\\902ffcbf-a1da-418e-81cf-36367ef14226.jpg"
+    },
+    {
+      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\99c9be01-ab27-41fc-bb08-9b4a0114bb87.png",
+      "SourceId": "eFashionShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "BasePath": "_content/eFashionShop",
+      "RelativePath": "user-content/99c9be01-ab27-41fc-bb08-9b4a0114bb87.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user-content\\99c9be01-ab27-41fc-bb08-9b4a0114bb87.png"
+    },
+    {
+      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\9f6e40a3-b270-4e85-9df5-a3773c1903f8.png",
+      "SourceId": "eFashionShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "BasePath": "_content/eFashionShop",
+      "RelativePath": "user-content/9f6e40a3-b270-4e85-9df5-a3773c1903f8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user-content\\9f6e40a3-b270-4e85-9df5-a3773c1903f8.png"
     },
     {
       "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\eb9d43d9-6ac3-475c-9a57-521cae8dec08.png",

@@ -1123,7 +1123,6 @@ D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\eFashionShop.exe
 D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\eFashionShop.deps.json
 D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\eFashionShop.runtimeconfig.json
 D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\eFashionShop.dll
-D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\ref\eFashionShop.dll
 D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\eFashionShop.pdb
 D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -1677,3 +1676,8 @@ D:\NewWebAHung\eFashionShop\obj\Debug\net6.0\eFashionShop.dll
 D:\NewWebAHung\eFashionShop\obj\Debug\net6.0\ref\eFashionShop.dll
 D:\NewWebAHung\eFashionShop\obj\Debug\net6.0\eFashionShop.pdb
 D:\NewWebAHung\eFashionShop\obj\Debug\net6.0\eFashionShop.genruntimeconfig.cache
+D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+D:\NewWebAHung\eFashionShop\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\NewWebAHung\eFashionShop\obj\Debug\net6.0\refint\eFashionShop.dll

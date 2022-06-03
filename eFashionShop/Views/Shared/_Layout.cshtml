@@ -1,4 +1,29 @@
-﻿<!DOCTYPE html>
+﻿@using eFashionShop.Application.Contacts
+@using eFashionShop.Data.Entities
+@using eFashionShop.Data.Enums
+
+@inject IContactService contactService
+@{
+    var contact = contactService.Default().Result;
+    if(contact == null)
+    {
+        contact = new Contact()
+                {
+                    Id = -1,
+                    Name = "Null",
+                    Email = "Null",
+                    PhoneNumber = "Null",
+                    Address = "Null",
+                    Hotline = "Null",
+                    Website = "Null",
+                    Message = "Null",
+                    Default = false,
+                    Status = Status.Active
+                };
+    }
+}
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -113,21 +138,21 @@
                 <div class="col-md-4">
                     <h4>C&ocirc;ng ty Cổ phần thiết kế HTcom</h4>
 
-                    <p>Thanh Hóa</p>
+                    <p>@(contact.Address)</p>
 
-                    <p>Tel: 0123456789</p>
+                    <p>Tel: @(contact.PhoneNumber)</p>
 
-                    <p>Hotline: 0123456789</p>
+                    <p>Hotline: @(contact.Hotline)</p>
 
-                    <p>E-mail: htcom@gmail.com</p>
+                    <p>E-mail: @(contact.Email)</p>
 
-                    <p>Website <a href="htcom.com.vn/">http://htcom.com.vn/</a></p>
+                    <p>Website <a href="@(contact.Website)">http://@(contact.Website)</a></p>
 
                     <p>Copyright 2022 &copy;</p>
                 </div>
                 <!-- Footer Social Icons -->
                 <div class="col-md-4 text-center">
-                    <h4 class="text-center">Website liên kết</h4>
+                    @*<h4 class="text-center">Website liên kết</h4>*@
                     <!-- <a href="http://tokicode.leotive.net" title="Logo hover" target="_blank">
                         <img class="toki" width="90px"
                             src="/themes/img/Tokilogo.png" alt="Logo toki">

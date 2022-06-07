@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NewWebAHung\\eFashionShop\\eFashionShop.csproj": {}
+    "E:\\NewWebAHung\\eFashionShop\\eFashionShop.csproj": {}
   },
   "projects": {
-    "D:\\NewWebAHung\\eFashionShop\\eFashionShop.csproj": {
+    "E:\\NewWebAHung\\eFashionShop\\eFashionShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NewWebAHung\\eFashionShop\\eFashionShop.csproj",
+        "projectUniqueName": "E:\\NewWebAHung\\eFashionShop\\eFashionShop.csproj",
         "projectName": "eFashionShop",
-        "projectPath": "D:\\NewWebAHung\\eFashionShop\\eFashionShop.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\NewWebAHung\\eFashionShop\\obj\\",
+        "projectPath": "E:\\NewWebAHung\\eFashionShop\\eFashionShop.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\NewWebAHung\\eFashionShop\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Public\\Documents\\Infragistics\\NuGet\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -124,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lclP7MrGMo9m1tlbPC2CtDCcqd+65CnHmWOfAipjlrI=",
+  "Hash": "LlYhgg4MsOGfPY/JigdKYb7uKJUvMw42n7thGDPhfuE=",
   "Source": "eFashionShop",
   "BasePath": "_content/eFashionShop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "eFashionShop\\wwwroot",
       "Source": "eFashionShop",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-area-demo.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-area-demo.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "adminTemplate/assets/demo/chart-area-demo.js",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\adminTemplate\\assets\\demo\\chart-area-demo.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-bar-demo.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-bar-demo.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "adminTemplate/assets/demo/chart-bar-demo.js",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\adminTemplate\\assets\\demo\\chart-bar-demo.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-pie-demo.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-pie-demo.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "adminTemplate/assets/demo/chart-pie-demo.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\adminTemplate\\assets\\demo\\chart-pie-demo.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\datatables-demo.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\datatables-demo.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "adminTemplate/assets/demo/datatables-demo.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\adminTemplate\\assets\\demo\\datatables-demo.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\img\\error-404-monochrome.svg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\img\\error-404-monochrome.svg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "adminTemplate/assets/img/error-404-monochrome.svg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\adminTemplate\\assets\\img\\error-404-monochrome.svg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\css\\styles.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\css\\styles.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "adminTemplate/css/styles.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\adminTemplate\\css\\styles.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\datatables-simple-demo.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\datatables-simple-demo.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "adminTemplate/js/datatables-simple-demo.js",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\adminTemplate\\js\\datatables-simple-demo.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\scripts.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\scripts.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "adminTemplate/js/scripts.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\adminTemplate\\js\\scripts.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\css\\site.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\css\\site.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\favicon.ico",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\favicon.ico",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\1.jpg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\1.jpg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "images/1.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1.jpg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\2.jpg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\2.jpg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "images/2.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2.jpg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\3.jpg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\3.jpg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "images/3.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3.jpg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\4.jpg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\4.jpg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "images/4.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4.jpg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\hung.jpg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\hung.jpg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "images/hung.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hung.jpg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\tung.jpg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\images\\tung.jpg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "images/tung.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\tung.jpg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\js\\site.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\js\\site.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\css\\style.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\css\\style.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/css/style.css",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\css\\style.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\js\\main.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\js\\main.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/js/main.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\js\\main.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\easing\\easing.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\easing\\easing.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/easing/easing.js",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\easing\\easing.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\easing\\easing.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\ajax-loader.gif",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\ajax-loader.gif",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/ajax-loader.gif",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\ajax-loader.gif"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\config.rb",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\config.rb",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/config.rb",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\config.rb"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.eot",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.eot",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/fonts/slick.eot",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.eot"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.svg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.svg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/fonts/slick.svg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.svg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.ttf",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.ttf",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/fonts/slick.ttf",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.ttf"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.woff",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.woff",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/fonts/slick.woff",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\fonts\\slick.woff"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/slick.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\slick.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/slick.js",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\slick.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.less",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.less",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/slick.less",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\slick.less"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/slick.min.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\slick.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.scss",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick.scss",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/slick.scss",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\slick.scss"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick-theme.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick-theme.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/slick-theme.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\slick-theme.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick-theme.less",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick-theme.less",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/slick-theme.less",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\slick-theme.less"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick-theme.scss",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\newTemplate\\lib\\slick\\slick-theme.scss",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "newTemplate/lib/slick/slick-theme.scss",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\newTemplate\\lib\\slick\\slick-theme.scss"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\animate.min.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\animate.min.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/css/animate.min.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\css\\animate.min.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\bootstrap.min.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\bootstrap.min.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\house.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\house.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/css/house.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\css\\house.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\lightbox.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\lightbox.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/css/lightbox.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\css\\lightbox.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\owl.carousel.min.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\owl.carousel.min.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/css/owl.carousel.min.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\css\\owl.carousel.min.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\owl.theme.default.min.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\owl.theme.default.min.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/css/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\css\\owl.theme.default.min.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\font-awesome\\css\\font-awesome.css",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\font-awesome\\css\\font-awesome.css",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/font-awesome/css/font-awesome.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\bootstrap.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\bootstrap.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\house.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\house.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/js/house.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\js\\house.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\jquery-1.11.3.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\jquery-1.11.3.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/js/jquery-1.11.3.min.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\js\\jquery-1.11.3.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\lightbox.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\lightbox.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/js/lightbox.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\js\\lightbox.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\owl.carousel.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\owl.carousel.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\wow.min.js",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\wow.min.js",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "themes/js/wow.min.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\themes\\js\\wow.min.js"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\141ce69e-c968-49ae-ac60-4a4c7f847c47.png",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\141ce69e-c968-49ae-ac60-4a4c7f847c47.png",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "user-content/141ce69e-c968-49ae-ac60-4a4c7f847c47.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\user-content\\141ce69e-c968-49ae-ac60-4a4c7f847c47.png"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\3238e5f2-61b5-4b3e-9f78-78c5183a990b.png",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\3238e5f2-61b5-4b3e-9f78-78c5183a990b.png",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "user-content/3238e5f2-61b5-4b3e-9f78-78c5183a990b.png",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\user-content\\3238e5f2-61b5-4b3e-9f78-78c5183a990b.png"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\902ffcbf-a1da-418e-81cf-36367ef14226.jpg",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\902ffcbf-a1da-418e-81cf-36367ef14226.jpg",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "user-content/902ffcbf-a1da-418e-81cf-36367ef14226.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\user-content\\902ffcbf-a1da-418e-81cf-36367ef14226.jpg"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\99c9be01-ab27-41fc-bb08-9b4a0114bb87.png",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\99c9be01-ab27-41fc-bb08-9b4a0114bb87.png",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "user-content/99c9be01-ab27-41fc-bb08-9b4a0114bb87.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\user-content\\99c9be01-ab27-41fc-bb08-9b4a0114bb87.png"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\9f6e40a3-b270-4e85-9df5-a3773c1903f8.png",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\9f6e40a3-b270-4e85-9df5-a3773c1903f8.png",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "user-content/9f6e40a3-b270-4e85-9df5-a3773c1903f8.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\user-content\\9f6e40a3-b270-4e85-9df5-a3773c1903f8.png"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\eb9d43d9-6ac3-475c-9a57-521cae8dec08.png",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\eb9d43d9-6ac3-475c-9a57-521cae8dec08.png",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "user-content/eb9d43d9-6ac3-475c-9a57-521cae8dec08.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\user-content\\eb9d43d9-6ac3-475c-9a57-521cae8dec08.png"
     },
     {
-      "Identity": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\fc78e313-af6f-40d0-b185-5b9f3f392525.png",
+      "Identity": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\user-content\\fc78e313-af6f-40d0-b185-5b9f3f392525.png",
       "SourceId": "eFashionShop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\NewWebAHung\\eFashionShop\\wwwroot\\",
+      "ContentRoot": "E:\\NewWebAHung\\eFashionShop\\wwwroot\\",
       "BasePath": "_content/eFashionShop",
       "RelativePath": "user-content/fc78e313-af6f-40d0-b185-5b9f3f392525.png",
       "AssetKind": "All",

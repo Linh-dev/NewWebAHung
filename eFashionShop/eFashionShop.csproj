@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CloudinaryDotNet" Version="1.18.1" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.1" />
@@ -30,7 +31,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\themes\font-awesome\fonts\" />
-    <Folder Include="wwwroot\user-content\" />
   </ItemGroup>
 
 </Project>

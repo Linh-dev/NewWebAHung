@@ -1,4 +1,5 @@
-﻿using eFashionShop.Application.Products;
+﻿using eFashionShop.Application.Images;
+using eFashionShop.Application.Products;
 using eFashionShop.Application.Slides;
 using eFashionShop.Constants;
 using eFashionShop.Models;
@@ -20,37 +21,27 @@ namespace eFashionShop.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ISlideService _slideService;
         private readonly IProductService _productService;
+        private readonly IImageService _imageService;
 
         public HomeController(ILogger<HomeController> logger,
             ISlideService slideService,
-            IProductService productService)
+            IProductService productService,
+            IImageService imageService)
         {
             _logger = logger;
             _slideService = slideService;
             _productService = productService;
+            _imageService = imageService;
         }
 
         public async Task<IActionResult> Index()
         {
             var viewModel = new HomeViewModel
             {
-                Slides = await _slideService.GetAll(),
                 FeaturedProducts = await _productService.GetFeaturedProducts(SystemConstants.ProductSettings.NumberOfFeaturedProducts),
-                LatestProducts = await _productService.GetLatestProducts(SystemConstants.ProductSettings.NumberOfLatestProducts),
+                FeaturedImages = await _imageService.GetFeaturedImages(),
             };
-
             return View(viewModel);
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        } 
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
         public IActionResult SetCultureCookie(string cltr, string returnUrl)

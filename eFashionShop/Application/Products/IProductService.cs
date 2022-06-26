@@ -41,7 +41,7 @@ namespace eFashionShop.Application.Products
 
         Task<ApiResult<bool>> CategoryAssign(int id, CategoryAssignRequest request);
 
-        Task<List<ProductVm>> GetFeaturedProducts(int take);
+        Task<List<ProductFeatureVm>> GetFeaturedProducts(int take);
 
         Task<List<ProductVm>> GetLatestProducts(int take);
     }

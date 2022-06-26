@@ -1,4 +1,5 @@
-﻿using eFashionShop.Application.Common;
+﻿using eFashionShop.Application.CloudinaryService;
+using eFashionShop.Application.Images;
 using eFashionShop.Data.EF;
 using eFashionShop.Data.Entities;
 using eFashionShop.Exceptions;
@@ -20,13 +21,13 @@ namespace eFashionShop.Application.Products
     public class ProductService : IProductService
     {
         private readonly EShopDbContext _context;
-        private readonly IStorageService _storageService;
+        private readonly IPhotoService _photoService;
         private const string USER_CONTENT_FOLDER_NAME = "user-content";
 
-        public ProductService(EShopDbContext context, IStorageService storageService)
+        public ProductService(EShopDbContext context, IPhotoService photoService)
         {
             _context = context;
-            _storageService = storageService;
+            _photoService = photoService;
         }
 
         public async Task<int> AddImage(int productId, ProductImageCreateRequest request)
@@ -42,7 +43,9 @@ namespace eFashionShop.Application.Products
 
             if (request.ImageFile != null)
             {
-                productImage.ImagePath = await this.SaveFile(request.ImageFile);
+                var resultImage = await _photoService.AddPhotoAsync(request.ImageFile);
+                productImage.ImagePath = resultImage.SecureUrl.AbsoluteUri;
+                productImage.PublicId = resultImage.PublicId;
                 productImage.FileSize = request.ImageFile.Length;
             }
             _context.ProductImages.Add(productImage);
@@ -76,6 +79,7 @@ namespace eFashionShop.Application.Products
             //Save image
             if (request.ThumbnailImage != null)
             {
+                var resultImage = await _photoService.AddPhotoAsync(request.ThumbnailImage);
                 product.ProductImages = new List<ProductImage>()
                 {
                     new ProductImage()
@@ -83,7 +87,8 @@ namespace eFashionShop.Application.Products
                         Caption = "Thumbnail image",
                         DateCreated = DateTime.Now,
                         FileSize = request.ThumbnailImage.Length,
-                        ImagePath = await this.SaveFile(request.ThumbnailImage),
+                        ImagePath = resultImage.SecureUrl.AbsoluteUri,
+                        PublicId = resultImage.PublicId,
                         IsDefault = true,
                         SortOrder = 1
                     }
@@ -102,7 +107,8 @@ namespace eFashionShop.Application.Products
             var images = _context.ProductImages.Where(i => i.ProductId == productId);
             foreach (var image in images)
             {
-                await _storageService.DeleteFileAsync(image.ImagePath);
+                await _photoService.DeletePhotoAsync(image.PublicId);
+                _context.ProductImages.Remove(image);
             }
 
             _context.Products.Remove(product);
@@ -272,7 +278,7 @@ namespace eFashionShop.Application.Products
             var result = await _context.SaveChangesAsync();
             if (result > 0)
             {
-                await _storageService.DeleteFileAsync(productImage.ImagePath);
+                await _photoService.DeletePhotoAsync(productImage.PublicId);
                 return result;
             };
             throw new EShopException($"Cannot find an image with id {imageId}");
@@ -301,7 +307,9 @@ namespace eFashionShop.Application.Products
 
             if (request.ImageFile != null)
             {
-                productImage.ImagePath = await this.SaveFile(request.ImageFile);
+                var resultImage = await _photoService.AddPhotoAsync(request.ImageFile);
+                productImage.ImagePath = resultImage.SecureUrl.AbsoluteUri;
+                productImage.PublicId = resultImage.PublicId;
                 productImage.FileSize = request.ImageFile.Length;
             }
             _context.ProductImages.Update(productImage);
@@ -322,14 +330,6 @@ namespace eFashionShop.Application.Products
             if (product == null) throw new EShopException($"Cannot find a product with id: {productId}");
             product.Stock += addedQuantity;
             return await _context.SaveChangesAsync() > 0;
-        }
-
-        private async Task<string> SaveFile(IFormFile file)
-        {
-            var originalFileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
-            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(originalFileName)}";
-            await _storageService.SaveFileAsync(file.OpenReadStream(), USER_CONTENT_FOLDER_NAME + "/" + fileName);
-            return "/" + USER_CONTENT_FOLDER_NAME + "/" + fileName;
         }
 
         public async Task<PagedResult<ProductVm>> GetAllByCategoryId(GetPublicProductPagingRequest request)
@@ -405,7 +405,7 @@ namespace eFashionShop.Application.Products
             return new ApiSuccessResult<bool>();
         }
 
-        public async Task<List<ProductVm>> GetFeaturedProducts(int take)
+        public async Task<List<ProductFeatureVm>> GetFeaturedProducts(int take)
         {
             //1. Select join
             var query = from p in _context.Products
@@ -419,23 +419,8 @@ namespace eFashionShop.Application.Products
                         && p.IsFeatured == true
                         select new { p, pic, pi };
 
-            var data = await query.OrderByDescending(x => x.p.DateCreated).Take(take)
-                .Select(x => new ProductVm()
-                {
-                    Id = x.p.Id,
-                    Name = x.p.Name,
-                    DateCreated = x.p.DateCreated,
-                    Description = x.p.Description,
-                    Details = x.p.Details,
-                    OriginalPrice = x.p.OriginalPrice,
-                    Price = x.p.Price,
-                    SeoAlias = x.p.SeoAlias,
-                    SeoDescription = x.p.SeoDescription,
-                    SeoTitle = x.p.SeoTitle,
-                    Stock = x.p.Stock,
-                    ViewCount = x.p.ViewCount,
-                    ThumbnailImage = x.pi.ImagePath
-                }).ToListAsync();
+
+            var data = new List<ProductFeatureVm>();
 
             return data;
         }
@@ -482,8 +467,10 @@ namespace eFashionShop.Application.Products
                 {
                     if (request.ImageFiles[i] != null)
                     {
+                        var resultImage = await _photoService.AddPhotoAsync(request.ImageFiles[i]);
                         ProductImage image = new ProductImage();
-                        image.ImagePath = await this.SaveFile(request.ImageFiles[i]);
+                        image.ImagePath = resultImage.SecureUrl.AbsoluteUri;
+                        image.PublicId = resultImage.PublicId;
                         image.FileSize = request.ImageFiles[i].Length;
                         image.ProductId = request.ProductId;
                         image.DateCreated = DateTime.Now;

@@ -1,0 +1,21 @@
+productService:
+
+- GetFeatureProducts
+- SetFeatureProduct
+
+
+imageService:
+
+- GetFeatureImages
+- SetFeatureImage
+
+emaiService:
+
+- sendMail
+
+
+*******
+
+- intergrate fb chat in web
+- logo
+- thông tin các phần tin tức - văn bản cần thiết

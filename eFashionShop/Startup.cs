@@ -1,6 +1,6 @@
 using eFashionShop.Application.Categories;
-using eFashionShop.Application.Common;
 using eFashionShop.Application.Contacts;
+using eFashionShop.Application.Images;
 using eFashionShop.Application.Orders;
 using eFashionShop.Application.Products;
 using eFashionShop.Application.Promotions;
@@ -10,6 +10,7 @@ using eFashionShop.Application.Users;
 using eFashionShop.Constants;
 using eFashionShop.Data.EF;
 using eFashionShop.Data.Entities;
+using eFashionShop.Models;
 using eFashionShop.ViewModels.System.Users;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -68,16 +69,17 @@ namespace eFashionShop
             });
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-            services.AddTransient<IStorageService, FileStorageService>();
             services.AddTransient<ISlideService, SlideService>();
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<ICategoryService, CategoryService>();
             services.AddTransient<IContactService, ContactService>();
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IPromotionService, PromotionService>();
+            services.AddTransient<IImageService, ImageService>();
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
             services.AddTransient<RoleManager<AppRole>, RoleManager<AppRole>>();
+            services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
             services.AddTransient<IRoleService, RoleService>();
             services.AddTransient<IUserService, UserService>();
 

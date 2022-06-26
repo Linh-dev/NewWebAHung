@@ -1,16 +1,12 @@
-﻿<div id="banner-carousel" class="pt-75 owl-carousel owl-theme">
-    <div class="item">
-        <img src="/images/1.jpg" alt="HTCom KIẾN TRÚC ĐẸP 1">
-    </div>
-    <div class="item">
-        <img src="/images/2.jpg" alt="HTCom KIẾN TRÚC ĐẸP 4">
-    </div>
-    <div class="item">
-        <img src="/images/3.jpg" alt="HTCom KIẾN TRÚC ĐẸP 3">
-    </div>
-    <div class="item">
-        <img src="/images/4.jpg" alt="HTCom KIẾN TRÚC ĐẸP 2">
-    </div>
+﻿@model eFashionShop.ViewModels.WebAppViewModel.HomeViewModel
+
+<div id="banner-carousel" class="pt-75 owl-carousel owl-theme">
+    @foreach (var image in Model.FeaturedImages)
+    {
+        <div class="item">
+            <img src='@image.ImagePath' alt='@image.Caption'>
+        </div>
+    }
 </div>
 
 <div class="site-wrapper">
@@ -36,8 +32,25 @@
     <!-- Projects -->
     <div class="container-fluid projects">
         <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+            @foreach (var item in Model.FeaturedProducts)
+           {
+                <div class="col-sm-6 col-md-3">
+                <div class="project-inner">
+                    <a href='@item.UrlInWWeb'>
+                        <div style="width:100%;height: 300px;background: url('@item.ImagePath');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
+                             alt='@item.Details'></div>
+                        <div class="project-caption">
 
-            <div class="col-sm-6 col-md-3">
+                            <div class="project-details">
+                                <p><i class="fa fa-plus fa-lg"></i></p>
+                                <h3>@item.Details</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+           }
+ @*           <div class="col-sm-6 col-md-3">
                 <div class="project-inner">
                     <a href="/du-an/thiet-ke-thi-cong-noi-that-van-phong/van-phong-tone-vang-164">
 
@@ -179,9 +192,7 @@
                         </div>
                     </a>
                 </div>
-            </div>
-
-
+            </div>*@
 
         </div>
     </div>
@@ -294,8 +305,9 @@
         </div>
     </div>
     <!-- End  -->
+    <!-- tin tức - blog-->
     <!-- start -->
-    <section class="bg-color  text-center">
+@*    <section class="bg-color  text-center">
         <div class="container">
             <div class="general-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
                 <h2>Tin tức nổi bật</h2>
@@ -417,6 +429,6 @@
 
             </div>
         </div>
-    </section>
+    </section>*@
 </div>
 

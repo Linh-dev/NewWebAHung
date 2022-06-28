@@ -17,5 +17,4 @@ emaiService:
 *******
 
 - intergrate fb chat in web
-- logo
 - thông tin các phần tin tức - văn bản cần thiết

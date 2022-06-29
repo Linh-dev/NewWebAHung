@@ -128,6 +128,7 @@ namespace eFashionShop.Controllers.AdminController
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
+            if(id == 0) return View();
             var product = await _productService.GetById(id);
             var images = await _productService.GetListImages(id);
             var editVm = new ProductUpdateRequest()
@@ -136,9 +137,10 @@ namespace eFashionShop.Controllers.AdminController
                 Description = product.Description,
                 Details = product.Details,
                 Name = product.Name,
-                SeoAlias = product.SeoAlias,
-                SeoDescription = product.SeoDescription,
-                SeoTitle = product.SeoTitle,
+                Customer = product.Customer,
+                Localtion = product.Localtion,
+                Area = product.Area,
+                IsFeatured = product.IsFeatured
             };
             ViewBag.images = images;
             return View(editVm);

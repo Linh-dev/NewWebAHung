@@ -33,7 +33,7 @@ responsive:{
         items:1
     }
 },
-navText:['<img src="themes/artviet/assets/images/next.png">','<img src="themes/artviet/assets/images/prev.png">']
+    navText: ['<img src="images/next.png">','<img src="images/prev.png">']
 });
 $('#studio-carousel').owlCarousel({
 loop:true,
@@ -52,7 +52,7 @@ responsive:{
         items:1
     }
 },
-navText:['<img src="themes/artviet/assets/images/next.png">','<img src="themes/artviet/assets/images/prev.png">']
+navText:['<img src="images/next.png">','<img src="themes/artviet/assets/images/prev.png">']
 });
 $('#slider-doitac').owlCarousel({
 loop:true,

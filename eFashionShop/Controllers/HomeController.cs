@@ -39,7 +39,7 @@ namespace eFashionShop.Controllers
             var viewModel = new HomeViewModel
             {
                 FeaturedProducts = await _productService.GetFeaturedProducts(SystemConstants.ProductSettings.NumberOfFeaturedProducts),
-                FeaturedImages = await _imageService.GetFeaturedImages(),
+                FeaturedImages = await _imageService.GetFeaturedImages(SystemConstants.ProductSettings.NumberOfFeaturedImages),
             };
             return View(viewModel);
         }

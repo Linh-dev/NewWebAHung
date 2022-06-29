@@ -25,10 +25,6 @@ namespace eFashionShop.Application.Categories
             var category = new Category
             {
                 Name = categoryVm.Name,
-                SeoDescription = categoryVm.SeoDescription,
-                SeoTitle = categoryVm.SeoTitle,
-                SeoAlias = categoryVm.SeoAlias,
-                SortOrder = categoryVm.SortOrder,
                 IsShowOnHome = categoryVm.IsShowOnHome,
                 ParentId = categoryVm.ParentId,
                 Status = categoryVm.Status

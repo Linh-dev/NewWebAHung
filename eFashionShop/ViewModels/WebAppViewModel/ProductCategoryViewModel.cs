@@ -10,8 +10,6 @@ namespace eFashionShop.ViewModels.WebAppViewModel
 {
     public class ProductCategoryViewModel
     {
-        public CategoryVm Category { get; set; }
-
-        public PagedResult<ProductVm> Products { get; set; }
+        List<ProductFeatureVm> productFeatureVms { get; set; }
     }
 }

@@ -17,8 +17,6 @@ namespace eFashionShop.Data.Entities
         public DateTime DateCreated { get; set; }
         public int? SortOrder { get; set; }
         public long? FileSize { get; set; }
-        public bool? IsFeatured { get; set; }
-        public Product Product { get; set; }
-
+        public bool IsFeatured { get; set; }
     }
 }

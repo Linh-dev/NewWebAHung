@@ -66,7 +66,7 @@ namespace eFashionShop.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "c2bc43b8-3eba-420b-837d-df0c80145e20",
+                            ConcurrencyStamp = "ca758036-61b6-47a2-9618-654aa214f89f",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
@@ -145,7 +145,7 @@ namespace eFashionShop.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7b61ec1f-cbf3-47e3-8532-2144916cdaa9",
+                            ConcurrencyStamp = "318e838d-6a6f-47d4-90a7-da24b82ed4c7",
                             Dob = new DateTime(2020, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
@@ -154,46 +154,12 @@ namespace eFashionShop.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAvcSsj6/XKUnOa3uYcHULZbIeZrA06p4q0B0umFQkt00vkuxDRamSU1lZp8DfVybQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFqhcDuzp9SMpjLcjXIA6wmUs2Uwk0qlx5Rb1MH8bkwBzmlFvZyIWSbt2tM0eRs5tQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
                             UserName = "admin"
                         });
-                });
-
-            modelBuilder.Entity("eFashionShop.Data.Entities.Cart", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<DateTime>("DateCreated")
-                        .HasColumnType("datetime2");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Carts");
                 });
 
             modelBuilder.Entity("eFashionShop.Data.Entities.Category", b =>
@@ -213,16 +179,7 @@ namespace eFashionShop.Migrations
                     b.Property<int?>("ParentId")
                         .HasColumnType("int");
 
-                    b.Property<string>("SeoAlias")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SeoDescription")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SeoTitle")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("SortOrder")
+                    b.Property<int?>("SortOrder")
                         .HasColumnType("int");
 
                     b.Property<int>("Status")
@@ -275,63 +232,6 @@ namespace eFashionShop.Migrations
                     b.ToTable("Contacts");
                 });
 
-            modelBuilder.Entity("eFashionShop.Data.Entities.Order", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("ShipAddress")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ShipEmail")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ShipName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ShipPhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Orders");
-                });
-
-            modelBuilder.Entity("eFashionShop.Data.Entities.OrderDetail", b =>
-                {
-                    b.Property<int>("OrderId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("Quantity")
-                        .HasColumnType("int");
-
-                    b.HasKey("OrderId", "ProductId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("OrderDetails");
-                });
-
             modelBuilder.Entity("eFashionShop.Data.Entities.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -339,6 +239,12 @@ namespace eFashionShop.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<double>("Area")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Customer")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
@@ -352,29 +258,11 @@ namespace eFashionShop.Migrations
                     b.Property<bool?>("IsFeatured")
                         .HasColumnType("bit");
 
+                    b.Property<string>("Localtion")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("OriginalPrice")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("SeoAlias")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SeoDescription")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("SeoTitle")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Stock")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ViewCount")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -404,11 +292,17 @@ namespace eFashionShop.Migrations
                     b.Property<bool?>("IsDefault")
                         .HasColumnType("bit");
 
+                    b.Property<bool?>("IsFeatured")
+                        .HasColumnType("bit");
+
                     b.Property<bool?>("IsOutstanding")
                         .HasColumnType("bit");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
+
+                    b.Property<string>("PublicId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("SortOrder")
                         .HasColumnType("int");
@@ -433,46 +327,6 @@ namespace eFashionShop.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductInCategories");
-                });
-
-            modelBuilder.Entity("eFashionShop.Data.Entities.Promotion", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<bool>("ApplyForAll")
-                        .HasColumnType("bit");
-
-                    b.Property<decimal?>("DiscountAmount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int?>("DiscountPercent")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("FromDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProductCategoryIds")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ProductIds")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("ToDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Promotions");
                 });
 
             modelBuilder.Entity("eFashionShop.Data.Entities.Slide", b =>
@@ -504,48 +358,6 @@ namespace eFashionShop.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Slides");
-                });
-
-            modelBuilder.Entity("eFashionShop.Data.Entities.Transaction", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("ExternalTransactionId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Fee")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("Message")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Provider")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Result")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("TransactionDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Transactions");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
@@ -656,62 +468,13 @@ namespace eFashionShop.Migrations
                     b.ToTable("AppUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("eFashionShop.Data.Entities.Cart", b =>
-                {
-                    b.HasOne("eFashionShop.Data.Entities.Product", "Product")
-                        .WithMany("Carts")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("eFashionShop.Data.Entities.AppUser", "AppUser")
-                        .WithMany("Carts")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("eFashionShop.Data.Entities.Order", b =>
-                {
-                    b.HasOne("eFashionShop.Data.Entities.AppUser", "AppUser")
-                        .WithMany("Orders")
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("AppUser");
-                });
-
-            modelBuilder.Entity("eFashionShop.Data.Entities.OrderDetail", b =>
-                {
-                    b.HasOne("eFashionShop.Data.Entities.Order", "Order")
-                        .WithMany("OrderDetails")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("eFashionShop.Data.Entities.Product", "Product")
-                        .WithMany("OrderDetails")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Order");
-
-                    b.Navigation("Product");
-                });
-
             modelBuilder.Entity("eFashionShop.Data.Entities.ProductImage", b =>
                 {
-                    b.HasOne("eFashionShop.Data.Entities.Product", "Product")
+                    b.HasOne("eFashionShop.Data.Entities.Product", null)
                         .WithMany("ProductImages")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("eFashionShop.Data.Entities.ProductInCategory", b =>
@@ -733,42 +496,13 @@ namespace eFashionShop.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("eFashionShop.Data.Entities.Transaction", b =>
-                {
-                    b.HasOne("eFashionShop.Data.Entities.AppUser", "AppUser")
-                        .WithMany("Transactions")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AppUser");
-                });
-
-            modelBuilder.Entity("eFashionShop.Data.Entities.AppUser", b =>
-                {
-                    b.Navigation("Carts");
-
-                    b.Navigation("Orders");
-
-                    b.Navigation("Transactions");
-                });
-
             modelBuilder.Entity("eFashionShop.Data.Entities.Category", b =>
                 {
                     b.Navigation("ProductInCategories");
                 });
 
-            modelBuilder.Entity("eFashionShop.Data.Entities.Order", b =>
-                {
-                    b.Navigation("OrderDetails");
-                });
-
             modelBuilder.Entity("eFashionShop.Data.Entities.Product", b =>
                 {
-                    b.Navigation("Carts");
-
-                    b.Navigation("OrderDetails");
-
                     b.Navigation("ProductImages");
 
                     b.Navigation("ProductInCategories");

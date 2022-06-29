@@ -14,8 +14,8 @@ namespace eFashionShop.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var data = _contactService.Default();
-            var res = data.Result;
+            var data = await _contactService.Default();
+            var res = data;
             if(res == null)
             {
                 res = new Contact()

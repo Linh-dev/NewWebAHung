@@ -1,13 +1,11 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
 
 namespace eFashionShop.ViewModels.Catalog.Images
 {
-    public class ImageVm
+    public class ImageCreateRedVm
     {
-        public int Id { get; set; }
-        public string ImagePath { get; set; }
         public string Caption { get; set; }
+        public IFormFile File { get; set; }
         public bool IsFeatured { get; set; }
-
     }
 }

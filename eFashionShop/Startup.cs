@@ -1,9 +1,8 @@
 using eFashionShop.Application.Categories;
+using eFashionShop.Application.CloudinaryService;
 using eFashionShop.Application.Contacts;
 using eFashionShop.Application.Images;
-using eFashionShop.Application.Orders;
 using eFashionShop.Application.Products;
-using eFashionShop.Application.Promotions;
 using eFashionShop.Application.Roles;
 using eFashionShop.Application.Slides;
 using eFashionShop.Application.Users;
@@ -73,9 +72,8 @@ namespace eFashionShop
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<ICategoryService, CategoryService>();
             services.AddTransient<IContactService, ContactService>();
-            services.AddTransient<IOrderService, OrderService>();
-            services.AddTransient<IPromotionService, PromotionService>();
             services.AddTransient<IImageService, ImageService>();
+            services.AddTransient<IPhotoService, PhotoService>();
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
             services.AddTransient<RoleManager<AppRole>, RoleManager<AppRole>>();

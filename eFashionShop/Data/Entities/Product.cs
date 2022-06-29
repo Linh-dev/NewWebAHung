@@ -11,18 +11,12 @@ namespace eFashionShop.Data.Entities
         public string Name { set; get; }
         public string Description { set; get; }
         public string Details { set; get; }
-        public string SeoDescription { set; get; }
-        public string SeoTitle { set; get; }
-        public string SeoAlias { get; set; }
-        public decimal Price { set; get; }
-        public decimal OriginalPrice { set; get; }
-        public int Stock { set; get; }
-        public int ViewCount { set; get; }
+        public string Customer { set; get; }
+        public string Localtion { set; get; }
+        public double Area { get; set; }
         public DateTime DateCreated { set; get; }
-        public bool? IsFeatured { get; set; }
+        public bool IsFeatured { get; set; }
         public List<ProductInCategory> ProductInCategories { get; set; }
-        public List<OrderDetail> OrderDetails { get; set; }
-        public List<Cart> Carts { get; set; }
         public List<ProductImage> ProductImages { get; set; }
     }
 }

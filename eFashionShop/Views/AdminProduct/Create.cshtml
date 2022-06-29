@@ -4,21 +4,6 @@
     ViewData["Title"] = "Tạo mới sản phẩm";
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
-@*@section Scripts{
-    <script src="https://cdn.ckeditor.com/ckeditor5/21.0.0/classic/ckeditor.js"></script>
-    <script>
-        ClassicEditor
-            .create(document.querySelector('#txt_details'), {
-                // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
-            })
-            .then(editor => {
-                window.editor = editor;
-            })
-            .catch(err => {
-                console.error(err.stack);
-            });
-    </script>
-}*@
 <div class="container-fluid">
     <h1 class="mt-4">Tạo mới sản phẩm</h1>
     <ol class="breadcrumb mb-4">
@@ -40,22 +25,6 @@
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Price" class="control-label"></label>
-                        <input asp-for="Price" type="number" class="form-control" />
-                        <span asp-validation-for="Price" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="OriginalPrice" class="control-label"></label>
-                        <input asp-for="OriginalPrice" type="number" class="form-control" />
-                        <span asp-validation-for="OriginalPrice" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Stock" class="control-label"></label>
-                        <input asp-for="Stock" type="number" class="form-control" />
-                        <span asp-validation-for="Stock" class="text-danger"></span>
-                    </div>
-
-                    <div class="form-group">
                         <label asp-for="Description" class="control-label"></label>
                         <textarea asp-for="Description" rows="4" class="form-control"></textarea>
                         <span asp-validation-for="Description" class="text-danger"></span>
@@ -66,24 +35,28 @@
                         <span asp-validation-for="Details" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="SeoDescription" class="control-label"></label>
-                        <input asp-for="SeoDescription" class="form-control" />
-                        <span asp-validation-for="SeoDescription" class="text-danger"></span>
+                        <label asp-for="Customer" class="control-label"></label>
+                        <input asp-for="Customer" class="form-control" />
+                        <span asp-validation-for="Customer" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="SeoTitle" class="control-label"></label>
-                        <input asp-for="SeoTitle" class="form-control" />
-                        <span asp-validation-for="SeoTitle" class="text-danger"></span>
+                        <label asp-for="Localtion" class="control-label"></label>
+                        <input asp-for="Localtion" class="form-control" />
+                        <span asp-validation-for="Localtion" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="SeoAlias" class="control-label"></label>
-                        <input asp-for="SeoAlias" class="form-control" />
-                        <span asp-validation-for="SeoAlias" class="text-danger"></span>
+                        <label asp-for="Area" class="control-label"></label>
+                        <input asp-for="Area" class="form-control" />
+                        <span asp-validation-for="Area" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="ThumbnailImage" class="control-label"></label>
                         <input asp-for="ThumbnailImage" type="file" class="form-control" />
                         <span asp-validation-for="ThumbnailImage" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="IsFeatured" class="control-label"></label>
+                        <input asp-for="IsFeatured" type="checkbox"/>
                     </div>
                     <div class="form-group">
                         <input type="submit" value="Tạo mới" class="btn btn-primary" />

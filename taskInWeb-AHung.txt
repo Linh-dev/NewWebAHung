@@ -1,18 +1,5 @@
-productService:
-
-- GetFeatureProducts
-- SetFeatureProduct
-
-
-imageService:
-
-- GetFeatureImages
-- SetFeatureImage
-
-emaiService:
 
 - sendMail
-
 
 *******
 

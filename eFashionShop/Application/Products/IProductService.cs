@@ -17,14 +17,8 @@ namespace eFashionShop.Application.Products
 
         Task<ProductVm> GetById(int productId);
 
-        Task<bool> UpdatePrice(int productId, decimal newPrice);
-
-        Task<bool> UpdateStock(int productId, int addedQuantity);
-
-        Task AddViewcount(int productId);
-
         Task<PagedResult<ProductVm>> GetAllPaging(GetManageProductPagingRequest request);
-
+        Task<List<ProductVm>> GetAll();
         Task<int> AddImage(int productId, ProductImageCreateRequest request);
         Task<int> AddListImages(ImagesCreateVm request);
         Task<int> SetMainImage(int imageId, int productId);
@@ -37,12 +31,8 @@ namespace eFashionShop.Application.Products
 
         Task<List<ProductImageViewModel>> GetListImages(int productId);
 
-        Task<PagedResult<ProductVm>> GetAllByCategoryId(GetPublicProductPagingRequest request);
-
         Task<ApiResult<bool>> CategoryAssign(int id, CategoryAssignRequest request);
 
         Task<List<ProductFeatureVm>> GetFeaturedProducts(int take);
-
-        Task<List<ProductVm>> GetLatestProducts(int take);
     }
 }

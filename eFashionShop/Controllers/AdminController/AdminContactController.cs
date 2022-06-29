@@ -15,13 +15,13 @@ namespace eFashionShop.Controllers.AdminController
         }
         public async Task<IActionResult> Index()
         {
-            var data = _contactService.GetAll();
-            var res = data.Result;
+            var data = await _contactService.GetAll();
+            var res = data;
             return View(res);
         }
 
         [HttpGet]
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
             return View();
         }
@@ -30,8 +30,8 @@ namespace eFashionShop.Controllers.AdminController
         public async Task<IActionResult> Create(ContactCreateVm res)
         {
             if (!ModelState.IsValid) return View(res);
-            var result = _contactService.Create(res);
-            if (result.Result)
+            var result = await _contactService.Create(res);
+            if (result)
             {
                 TempData["result"] = "Thêm mới thành công";
                 return RedirectToAction("Index");

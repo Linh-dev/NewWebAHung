@@ -14,8 +14,8 @@ namespace eFashionShop.Controllers.AdminController
         }
         public async Task<IActionResult> Index()
         {
-            var data = _categoryService.GetAll();
-            return View(data.Result);
+            var data = await _categoryService.GetAll();
+            return View(data);
         }
         [HttpGet]
         public IActionResult Delete(int id)

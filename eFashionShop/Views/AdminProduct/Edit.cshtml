@@ -5,21 +5,7 @@
     Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 @inject Microsoft.Extensions.Configuration.IConfiguration Configuration;
-@*@section Scripts{
-    <script src="https://cdn.ckeditor.com/ckeditor5/21.0.0/classic/ckeditor.js"></script>
-    <script>
-    ClassicEditor
-    .create(document.querySelector('#txt_details'), {
-    // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
-    })
-    .then(editor => {
-    window.editor = editor;
-    })
-    .catch(err => {
-    console.error(err.stack);
-    });
-    </script>
-    }*@
+
 <div class="container-fluid">
     <h1 class="mt-4">Cập nhật sản phẩm</h1>
     <ol class="breadcrumb mb-4">
@@ -52,32 +38,38 @@
                         <textarea id="txt_details" asp-for="Details" rows="8" class="form-control"></textarea>
                         <span asp-validation-for="Details" class="text-danger"></span>
                     </div>
+
                     <div class="form-group">
-                        <label asp-for="SeoDescription" class="control-label"></label>
-                        <input asp-for="SeoDescription" class="form-control" />
-                        <span asp-validation-for="SeoDescription" class="text-danger"></span>
+                        <label asp-for="Customer" class="control-label"></label>
+                        <input class="form-control"  asp-for="Customer" />
+                        <span asp-validation-for="Customer" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="SeoTitle" class="control-label"></label>
-                        <input asp-for="SeoTitle" class="form-control" />
-                        <span asp-validation-for="SeoTitle" class="text-danger"></span>
+                        <label asp-for="Localtion" class="control-label"></label>
+                        <input asp-for="Localtion" class="form-control" />
+                        <span asp-validation-for="Localtion" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="SeoAlias" class="control-label"></label>
-                        <input asp-for="SeoAlias" class="form-control" />
-                        <span asp-validation-for="SeoAlias" class="text-danger"></span>
+                        <label asp-for="Area" class="control-label"></label>
+                        <input asp-for="Area" class="form-control" />
+                        <span asp-validation-for="Area" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="IsFeatured" class="control-label"></label>
+                        <input asp-for="IsFeatured" type="checkbox"/>
                     </div>
                     <div class="form-group">
                         <input type="submit" value="Cập nhật" class="btn btn-primary" />
                     </div>
                 </form>
+                <hr />
                 <div class="container">
                     <div class="row">
-                        
-                            @foreach (var photo in ViewBag.images)
-                            {
-                                <div class="col-2 d-flex flex-column">
-                                <img src="@(Configuration["BaseAddress"] + photo.ImagePath)" class="img-thumbnail p-1">
+
+                        @foreach (var photo in ViewBag.images)
+                        {
+                            <div class="col-2 d-flex flex-column">
+                                <img src="@(photo.ImagePath)" class="img-thumbnail p-1">
                                 <div class="d-flex">
                                     <button disabled="@(photo.IsDefault)"
                                         class="btn btn-sm btn-success flex-grow-1"
@@ -92,9 +84,9 @@
                                         <i class="fa fa-trash"></i>
                                     </button>
                                 </div>
-                        </div>
+                            </div>
 
-                            }
+                        }
                     </div>
                 </div>
                 <form id="checkImage" asp-action="AddListImages" asp-controller="AdminProduct" enctype="multipart/form-data" method="post">

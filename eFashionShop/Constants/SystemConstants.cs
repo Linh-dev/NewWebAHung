@@ -18,7 +18,7 @@ namespace eFashionShop.Constants
         public class ProductSettings
         {
             public const int NumberOfFeaturedProducts = 8;
-            public const int NumberOfLatestProducts = 6;
+            public const int NumberOfFeaturedImages = 4;
         }
 
         public class ProductConstants

@@ -20,12 +20,11 @@
                 <p>
                 <p style="text-align:center">
                     <span style="font-family:Arial,Helvetica,sans-serif">
-                        Công ty cổ phần HTcom - Nhà đẹp. 
+                        Công ty cổ phần HTcom - Nhà đẹp.
                     </span>
                 </p>
 
                 <p style="text-align:center">&nbsp;</p>
-                </p>
             </div>
         </div>
     </div>
@@ -33,24 +32,24 @@
     <div class="container-fluid projects">
         <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
             @foreach (var item in Model.FeaturedProducts)
-           {
+            {
                 <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href='@item.UrlInWWeb'>
-                        <div style="width:100%;height: 300px;background: url('@item.ImagePath');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
+                    <div class="project-inner">
+                        <a href="/category/Deital/@item.Id">
+                            <div style="width:100%;height: 300px;background: url('@item.ImagePath');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
                              alt='@item.Details'></div>
-                        <div class="project-caption">
+                            <div class="project-caption">
 
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>@item.Details</h3>
+                                <div class="project-details">
+                                    <p><i class="fa fa-plus fa-lg"></i></p>
+                                    <h3>@item.Details</h3>
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-            </div>
-           }
- @*           <div class="col-sm-6 col-md-3">
+            }
+@*            <div class="col-sm-6 col-md-3">
                 <div class="project-inner">
                     <a href="/du-an/thiet-ke-thi-cong-noi-that-van-phong/van-phong-tone-vang-164">
 
@@ -234,7 +233,6 @@
                 <p style="margin-left:0in; margin-right:0in; text-align:center">&nbsp;</p>
 
                 <p style="text-align:center"><span style="font-size:14px"></span></p>
-                </p>
             </div>
         </div>
         <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
@@ -307,128 +305,128 @@
     <!-- End  -->
     <!-- tin tức - blog-->
     <!-- start -->
-@*    <section class="bg-color  text-center">
+    @*    <section class="bg-color  text-center">
         <div class="container">
-            <div class="general-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-                <h2>Tin tức nổi bật</h2>
-                <div class="title-devider"></div>
-            </div>
-            <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-                <div class="col-sm-4 col-md-4">
-                    <div class="thumbnail blog-post">
-
-                        <a href="tin-tuc/diem-lai-5-xu-huong-thiet-ke-noi-that-chu-dao-2020-66">
-                            <div class="tintuc-img"
-                                 style="background:url('/media/article/16046305027655.jpg') no-repeat center; background-size: cover;">
-                            </div>
-                        </a>
-
-                        <div class="caption">
-                            <div class="blog-inner-title">
-                                <a href="tin-tuc/diem-lai-5-xu-huong-thiet-ke-noi-that-chu-dao-2020-66">
-                                    <h3>ĐIỂM LẠI 5 XU HƯỚNG THIẾT KẾ NỘI THẤT CHỦ ĐẠO 2020</h3>
-                                </a>
-                            </div>
-                            <p>
-                            <p>
-                                <span style="font-size:16px">
-                                    <span style="font-family:Arial,Helvetica,sans-serif">
-                                        Bạn
-                                        đang muốn đổi mới ng&ocirc;i nh&agrave; của m&igrave;nh&nbsp; nhưng
-                                        c&ograve;n đang ph&acirc;n v&acirc;n chọn lựa c&aacute;c thiết kế để tạo
-                                        n&ecirc;n sự độc đ&aacute;o nhưng vẫn mang lại c&aacute; t&iacute;nh
-                                        ri&ecirc;ng của bản th&acirc;n? Đừng bỏ qua 5 xu hướng thiết kế nội thất hot
-                                        nhất năm 2020.
-                                    </span>
-                                </span>
-                            </p>
-                            </p>
-                            <div class="blog-meta">
-                                <span><i class="fa fa-calendar"></i> <a href="#"> 06-11-2020</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="thumbnail blog-post">
-
-                        <a href="tin-tuc/nhung-luu-y-khi-bo-tri-khong-giang-phong-ngu-65">
-                            <div class="tintuc-img"
-                                 style="background:url('/media/article/15889343806929.jpg') no-repeat center; background-size: cover;">
-                            </div>
-                        </a>
-
-                        <div class="caption">
-                            <div class="blog-inner-title">
-                                <a href="tin-tuc/nhung-luu-y-khi-bo-tri-khong-giang-phong-ngu-65">
-                                    <h3>NHỮNG LƯU Ý KHI BỐ TRÍ KHÔNG GIAN PHÒNG NGỦ</h3>
-                                </a>
-                            </div>
-                            <p>
-                            <p>
-                                <span style="font-family:Arial,Helvetica,sans-serif">
-                                    <span style="font-size:16px">
-                                        Kh&aacute;c với trước đ&acirc;y khi chỉ đơn giản
-                                        l&agrave; nơi ngả lưng mỗi khi mệt mỏi, ph&ograve;ng ngủ hiện nay
-                                        đ&oacute;ng vai tr&ograve; rất lớn t&aacute;c động đến cảm x&uacute;c,
-                                        t&acirc;m trạng của người sử dụng.<br />
-                                        Để c&oacute; một kh&ocirc;ng gian nghỉ ngơi thư gi&atilde;n trọn vẹn,
-                                        h&atilde;y c&ugrave;ng Art Việt điểm qua một số lưu &yacute; nhỏ khi bố
-                                        tr&iacute; Ph&ograve;ng ngủ nh&eacute;!
-                                    </span>
-                                </span>
-                            </p>
-                            </p>
-                            <div class="blog-meta">
-                                <span><i class="fa fa-calendar"></i> <a href="#"> 08-05-2020</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <div class="thumbnail blog-post">
-
-                        <a href="tin-tuc/lang-lieu">
-                            <div class="tintuc-img"
-                                 style="background:url('/media/article/15885792411154.jpg') no-repeat center; background-size: cover;">
-                            </div>
-                        </a>
-
-                        <div class="caption">
-                            <div class="blog-inner-title">
-                                <a href="tin-tuc/lang-lieu">
-                                    <h3>NHÀ HÀNG LANG LIÊU - MỖI CÁI NHÌN LÀ MỘT LỊCH SỬ</h3>
-                                </a>
-                            </div>
-                            <p>
-                            <p>
-                                <span style="font-family:Arial,Helvetica,sans-serif">
-                                    <span style="font-size:16px">
-                                        2019, 𝐋𝐚𝐧𝐠 𝐋𝐢𝐞̂𝐮 được đ&aacute;nh gi&aacute;
-                                        l&agrave; dự &aacute;n m&agrave; Art Việt h&agrave;i l&ograve;ng nhất với
-                                        hơn 90% c&aacute;c chi tiết trong bản thiết kế đều được thể hiện tr&ecirc;n
-                                        c&ocirc;ng tr&igrave;nh thực tế, kỹ lưỡng tỉ mỉ tới từng đường n&eacute;t.
-                                        B&ecirc;n cạnh đ&oacute;, 𝐃𝐮̛̣ 𝐚́𝐧 𝐋𝐚𝐧𝐠 𝐋𝐢𝐞̂𝐮 đ&atilde;
-                                        đ&aacute;nh dấu một m&ugrave;a h&egrave;
-                                        si&ecirc;u&nbsp;&quot;n&oacute;ng&quot;&nbsp;với cường độ l&agrave;m việc
-                                        cao, c&ugrave;ng tiến độ dồn dập, khi m&agrave; tổng thời gian từ l&uacute;c
-                                        thai ngh&eacute;n &yacute; tưởng cho tới ng&agrave;y b&agrave;n giao chỉ vỏn
-                                        vẹn 02 th&aacute;ng.
-                                    </span>
-                                </span>
-                            </p>
-                            </p>
-                            <div class="blog-meta">
-                                <span><i class="fa fa-calendar"></i> <a href="#"> 04-05-2020</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
+        <div class="general-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+        <h2>Tin tức nổi bật</h2>
+        <div class="title-devider"></div>
         </div>
-    </section>*@
+        <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+        <div class="col-sm-4 col-md-4">
+        <div class="thumbnail blog-post">
+
+        <a href="tin-tuc/diem-lai-5-xu-huong-thiet-ke-noi-that-chu-dao-2020-66">
+        <div class="tintuc-img"
+        style="background:url('/media/article/16046305027655.jpg') no-repeat center; background-size: cover;">
+        </div>
+        </a>
+
+        <div class="caption">
+        <div class="blog-inner-title">
+        <a href="tin-tuc/diem-lai-5-xu-huong-thiet-ke-noi-that-chu-dao-2020-66">
+        <h3>ĐIỂM LẠI 5 XU HƯỚNG THIẾT KẾ NỘI THẤT CHỦ ĐẠO 2020</h3>
+        </a>
+        </div>
+        <p>
+        <p>
+        <span style="font-size:16px">
+        <span style="font-family:Arial,Helvetica,sans-serif">
+        Bạn
+        đang muốn đổi mới ng&ocirc;i nh&agrave; của m&igrave;nh&nbsp; nhưng
+        c&ograve;n đang ph&acirc;n v&acirc;n chọn lựa c&aacute;c thiết kế để tạo
+        n&ecirc;n sự độc đ&aacute;o nhưng vẫn mang lại c&aacute; t&iacute;nh
+        ri&ecirc;ng của bản th&acirc;n? Đừng bỏ qua 5 xu hướng thiết kế nội thất hot
+        nhất năm 2020.
+        </span>
+        </span>
+        </p>
+        </p>
+        <div class="blog-meta">
+        <span><i class="fa fa-calendar"></i> <a href="#"> 06-11-2020</a></span>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+        <div class="thumbnail blog-post">
+
+        <a href="tin-tuc/nhung-luu-y-khi-bo-tri-khong-giang-phong-ngu-65">
+        <div class="tintuc-img"
+        style="background:url('/media/article/15889343806929.jpg') no-repeat center; background-size: cover;">
+        </div>
+        </a>
+
+        <div class="caption">
+        <div class="blog-inner-title">
+        <a href="tin-tuc/nhung-luu-y-khi-bo-tri-khong-giang-phong-ngu-65">
+        <h3>NHỮNG LƯU Ý KHI BỐ TRÍ KHÔNG GIAN PHÒNG NGỦ</h3>
+        </a>
+        </div>
+        <p>
+        <p>
+        <span style="font-family:Arial,Helvetica,sans-serif">
+        <span style="font-size:16px">
+        Kh&aacute;c với trước đ&acirc;y khi chỉ đơn giản
+        l&agrave; nơi ngả lưng mỗi khi mệt mỏi, ph&ograve;ng ngủ hiện nay
+        đ&oacute;ng vai tr&ograve; rất lớn t&aacute;c động đến cảm x&uacute;c,
+        t&acirc;m trạng của người sử dụng.<br />
+        Để c&oacute; một kh&ocirc;ng gian nghỉ ngơi thư gi&atilde;n trọn vẹn,
+        h&atilde;y c&ugrave;ng Art Việt điểm qua một số lưu &yacute; nhỏ khi bố
+        tr&iacute; Ph&ograve;ng ngủ nh&eacute;!
+        </span>
+        </span>
+        </p>
+        </p>
+        <div class="blog-meta">
+        <span><i class="fa fa-calendar"></i> <a href="#"> 08-05-2020</a></span>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="col-sm-4 col-md-4">
+        <div class="thumbnail blog-post">
+
+        <a href="tin-tuc/lang-lieu">
+        <div class="tintuc-img"
+        style="background:url('/media/article/15885792411154.jpg') no-repeat center; background-size: cover;">
+        </div>
+        </a>
+
+        <div class="caption">
+        <div class="blog-inner-title">
+        <a href="tin-tuc/lang-lieu">
+        <h3>NHÀ HÀNG LANG LIÊU - MỖI CÁI NHÌN LÀ MỘT LỊCH SỬ</h3>
+        </a>
+        </div>
+        <p>
+        <p>
+        <span style="font-family:Arial,Helvetica,sans-serif">
+        <span style="font-size:16px">
+        2019, 𝐋𝐚𝐧𝐠 𝐋𝐢𝐞̂𝐮 được đ&aacute;nh gi&aacute;
+        l&agrave; dự &aacute;n m&agrave; Art Việt h&agrave;i l&ograve;ng nhất với
+        hơn 90% c&aacute;c chi tiết trong bản thiết kế đều được thể hiện tr&ecirc;n
+        c&ocirc;ng tr&igrave;nh thực tế, kỹ lưỡng tỉ mỉ tới từng đường n&eacute;t.
+        B&ecirc;n cạnh đ&oacute;, 𝐃𝐮̛̣ 𝐚́𝐧 𝐋𝐚𝐧𝐠 𝐋𝐢𝐞̂𝐮 đ&atilde;
+        đ&aacute;nh dấu một m&ugrave;a h&egrave;
+        si&ecirc;u&nbsp;&quot;n&oacute;ng&quot;&nbsp;với cường độ l&agrave;m việc
+        cao, c&ugrave;ng tiến độ dồn dập, khi m&agrave; tổng thời gian từ l&uacute;c
+        thai ngh&eacute;n &yacute; tưởng cho tới ng&agrave;y b&agrave;n giao chỉ vỏn
+        vẹn 02 th&aacute;ng.
+        </span>
+        </span>
+        </p>
+        </p>
+        <div class="blog-meta">
+        <span><i class="fa fa-calendar"></i> <a href="#"> 04-05-2020</a></span>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+        </div>
+        </div>
+        </section>*@
 </div>
 

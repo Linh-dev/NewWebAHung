@@ -145,10 +145,7 @@ namespace eFashionShop.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SeoDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SeoTitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SeoAlias = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SortOrder = table.Column<int>(type: "int", nullable: false),
+                    SortOrder = table.Column<int>(type: "int", nullable: true),
                     IsShowOnHome = table.Column<bool>(type: "bit", nullable: false),
                     ParentId = table.Column<int>(type: "int", nullable: true),
                     Status = table.Column<int>(type: "int", nullable: false, defaultValue: 1)
@@ -167,7 +164,11 @@ namespace eFashionShop.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Hotline = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Website = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Message = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Default = table.Column<bool>(type: "bit", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -184,12 +185,6 @@ namespace eFashionShop.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Details = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SeoDescription = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SeoTitle = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SeoAlias = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    OriginalPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Stock = table.Column<int>(type: "int", nullable: false),
                     ViewCount = table.Column<int>(type: "int", nullable: false),
                     DateCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsFeatured = table.Column<bool>(type: "bit", nullable: true)
@@ -197,27 +192,6 @@ namespace eFashionShop.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Products", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Promotions",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    FromDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ToDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ApplyForAll = table.Column<bool>(type: "bit", nullable: false),
-                    DiscountPercent = table.Column<int>(type: "int", nullable: true),
-                    DiscountAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    ProductIds = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ProductCategoryIds = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Status = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Promotions", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -239,99 +213,21 @@ namespace eFashionShop.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Orders",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ShipName = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ShipAddress = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ShipEmail = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ShipPhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Status = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Orders", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Orders_AppUser_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AppUser",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Transactions",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    TransactionDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    ExternalTransactionId = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Amount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Fee = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Result = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Message = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Status = table.Column<int>(type: "int", nullable: false),
-                    Provider = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UserId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Transactions", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Transactions_AppUser_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AppUser",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Carts",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ProductId = table.Column<int>(type: "int", nullable: false),
-                    Quantity = table.Column<int>(type: "int", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
-                    DateCreated = table.Column<DateTime>(type: "datetime2", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Carts", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Carts_AppUser_UserId",
-                        column: x => x.UserId,
-                        principalTable: "AppUser",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Carts_Products_ProductId",
-                        column: x => x.ProductId,
-                        principalTable: "Products",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "ProductImages",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    PublicId = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ProductId = table.Column<int>(type: "int", nullable: false),
                     ImagePath = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Caption = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    IsDefault = table.Column<bool>(type: "bit", nullable: false),
+                    IsDefault = table.Column<bool>(type: "bit", nullable: true),
+                    IsOutstanding = table.Column<bool>(type: "bit", nullable: true),
                     DateCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    SortOrder = table.Column<int>(type: "int", nullable: false),
-                    FileSize = table.Column<long>(type: "bigint", nullable: false)
+                    SortOrder = table.Column<int>(type: "int", nullable: true),
+                    FileSize = table.Column<long>(type: "bigint", nullable: true),
+                    IsFeatured = table.Column<bool>(type: "bit", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -368,71 +264,20 @@ namespace eFashionShop.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "OrderDetails",
-                columns: table => new
-                {
-                    OrderId = table.Column<int>(type: "int", nullable: false),
-                    ProductId = table.Column<int>(type: "int", nullable: false),
-                    Quantity = table.Column<int>(type: "int", nullable: false),
-                    Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_OrderDetails", x => new { x.OrderId, x.ProductId });
-                    table.ForeignKey(
-                        name: "FK_OrderDetails_Orders_OrderId",
-                        column: x => x.OrderId,
-                        principalTable: "Orders",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_OrderDetails_Products_ProductId",
-                        column: x => x.ProductId,
-                        principalTable: "Products",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
             migrationBuilder.InsertData(
                 table: "AppRole",
                 columns: new[] { "Id", "ConcurrencyStamp", "Description", "Name", "NormalizedName" },
-                values: new object[] { 1, "34d944d0-cc14-49fb-8cd4-0ec41dde8a43", "Administrator role", "admin", "admin" });
+                values: new object[] { 1, "b1c81679-e4e4-4fe8-8fe6-e06c889ddd44", "Administrator role", "admin", "admin" });
 
             migrationBuilder.InsertData(
                 table: "AppUser",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Dob", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { 1, 0, "6b86a2df-95dd-400e-8309-059710c5141e", new DateTime(2020, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", true, "Toan", "Bach", false, null, "admin@gmail.com", "admin", "AQAAAAEAACcQAAAAELIz9VEVC2ZCJEstYLN0pHBLGr5FAvnuKk5fQTtodzIfnN/2EPmEhbB9zG6SlmAPcA==", null, false, "", false, "admin" });
+                values: new object[] { 1, 0, "253cf960-9271-4da9-8cb2-035b77d1d7ef", new DateTime(2020, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified), "admin@gmail.com", true, "Cao", "Hung", false, null, "admin@gmail.com", "admin", "AQAAAAEAACcQAAAAEHMN9d1rmmAFxzX+8asS0PTYaFjFV0ScnEuRqn62mOOwbJsl1JsFTzQYSdNHN19p3Q==", null, false, "", false, "admin" });
 
             migrationBuilder.InsertData(
                 table: "AppUserRoles",
                 columns: new[] { "RoleId", "UserId" },
                 values: new object[] { 1, 1 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Carts_Id",
-                table: "Carts",
-                column: "Id");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Carts_ProductId",
-                table: "Carts",
-                column: "ProductId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Carts_UserId",
-                table: "Carts",
-                column: "UserId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_OrderDetails_ProductId",
-                table: "OrderDetails",
-                column: "ProductId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Orders_UserId",
-                table: "Orders",
-                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ProductImages_ProductId",
@@ -443,11 +288,6 @@ namespace eFashionShop.Migrations
                 name: "IX_ProductInCategories_ProductId",
                 table: "ProductInCategories",
                 column: "ProductId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Transactions_UserId",
-                table: "Transactions",
-                column: "UserId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -462,6 +302,9 @@ namespace eFashionShop.Migrations
                 name: "AppRoleClaims");
 
             migrationBuilder.DropTable(
+                name: "AppUser");
+
+            migrationBuilder.DropTable(
                 name: "AppUserClaims");
 
             migrationBuilder.DropTable(
@@ -474,13 +317,7 @@ namespace eFashionShop.Migrations
                 name: "AppUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Carts");
-
-            migrationBuilder.DropTable(
                 name: "Contacts");
-
-            migrationBuilder.DropTable(
-                name: "OrderDetails");
 
             migrationBuilder.DropTable(
                 name: "ProductImages");
@@ -489,25 +326,13 @@ namespace eFashionShop.Migrations
                 name: "ProductInCategories");
 
             migrationBuilder.DropTable(
-                name: "Promotions");
-
-            migrationBuilder.DropTable(
                 name: "Slides");
-
-            migrationBuilder.DropTable(
-                name: "Transactions");
-
-            migrationBuilder.DropTable(
-                name: "Orders");
 
             migrationBuilder.DropTable(
                 name: "Categories");
 
             migrationBuilder.DropTable(
                 name: "Products");
-
-            migrationBuilder.DropTable(
-                name: "AppUser");
         }
     }
 }

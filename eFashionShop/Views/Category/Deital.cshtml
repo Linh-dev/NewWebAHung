@@ -1,7 +1,7 @@
 ﻿@model eFashionShop.ViewModels.WebAppViewModel.ProductDetailViewModel
 
 <div id="banner-carousel" class="pt-75 owl-carousel owl-theme">
-    @foreach (var image in Model.FeaturedImages)
+    @foreach (var image in Model.productImageViewModels)
     {
         <div class="item">
             <img src='@image.ImagePath' alt='@image.Caption'>
@@ -10,50 +10,54 @@
 </div>
 
 <div class="pt-75 general-title bg-color">
-    <h2>Dự án : Nhà ở dân dụng</h2>
+    <h2>Dự án : @Model.productVms.Description</h2>
     <div class="title-devider"></div>
 </div>
 <div class="site-wrapper">
     <!-- Contact -->
-    <div class="container padding-bottom text-center contact-adress">
+    @{
+        if (Model.productVms != null)
+        {
+            <div class="container padding-bottom text-center contact-adress">
 
-        <p>Toạ lạc trong phân khu Aquaria liền kề bến du thuyền Vịnh nước ngọt 8,6ha – điểm nhấn đẳng cấp của thành phố bên sông Waterpoint, Homestay Nhà vườn Aqua sẽ mang đến cho cả gia đình không gian sống lý tưởng và những giá trị vượt trội.</p>
+                <p>@Model.productVms.Details</p>
 
-        <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-            <div class="col-sm-4 col-md-4">
-                <h3>Khách Hàng</h3>
-                <address>
-                    <p>&nbsp;</p>
+                <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+                    <div class="col-sm-4 col-md-4">
+                        <h3>Khách Hàng</h3>
+                        <address>
+                            <p>&nbsp;</p>
 
-                    <h4>
-                        @*@Model.Address*@
-                        Anh Xuân
-                    </h4>
-                </address>
+                            <h4>
+                                @Model.productVms.Customer
+                            </h4>
+                        </address>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <h3>Vị trí</h3>
+                        <address>
+                            <p>&nbsp;</p>
+
+                            <h4>
+                                @Model.productVms.Localtion
+                                Anh Xuân
+                            </h4>
+                        </address>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <h3>Diện Tích</h3>
+                        <address>
+                            <p>&nbsp;</p>
+
+                            <h4>
+                                @Model.productVms.Area
+                                Anh Xuân
+                            </h4>
+                        </address>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4 col-md-4">
-                <h3>Vị trí</h3>
-                <address>
-                    <p>&nbsp;</p>
-
-                    <h4>
-                        @*@Model.Address*@
-                        Anh Xuân
-                    </h4>
-                </address>
-            </div>
-            <div class="col-sm-4 col-md-4">
-                <h3>Diện Tích</h3>
-                <address>
-                    <p>&nbsp;</p>
-
-                    <h4>
-                        @*@Model.Address*@
-                        Anh Xuân
-                    </h4>
-                </address>
-            </div>
-        </div>
-    </div>
+        }
+    }
 </div>
 

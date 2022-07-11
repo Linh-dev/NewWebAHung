@@ -86,7 +86,7 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="/">
-                            <img class="logo"
+                            <img class="logo" src="\themes\artviet\logo.jpg"
                                 alt="Logo HTcom - Nhà Đẹp">
                         </a>
                     </div>
@@ -128,7 +128,9 @@
         </div>
     </nav>
         <div id="mainBody">
-            @RenderBody()
+            <div class="container px-5">
+                @RenderBody()
+            </div>
         </div>
     <footer id="footer">
         <div class="container">
@@ -298,6 +300,51 @@
             font-size: 13px;
         }
     </style>
+        <div class="fb-livechat">
+        <div class="ctrlq fb-overlay"></div>
+        <div class="fb-widget">
+            <div class="ctrlq fb-close"></div>
+            <div class="fb-page" data-href="https://www.facebook.com/HTcomHOME" data-tabs="messages"
+                data-width="360" data-height="400" data-small-header="true" data-hide-cover="true"
+                data-show-facepile="false"> </div>
+            @*<div class="fb-credit"> <a href="https://www.facebook.com/HTcomHOME" target="_blank">Powered by Chanhtuoi</a> </div>*@
+            <div id="fb-root"></div>
+        </div><a href="https://m.me/HTcomHOME" title="Gửi tin nhắn cho chúng tôi qua Facebook"
+            class="ctrlq fb-button">
+            <div class="bubble">1</div>
+            <div class="bubble-msg">Bạn cần hỗ trợ?</div>
+        </a>
+    </div>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "110679134984929");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 
 </html>

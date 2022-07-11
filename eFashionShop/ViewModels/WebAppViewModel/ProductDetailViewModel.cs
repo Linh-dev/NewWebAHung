@@ -11,6 +11,7 @@ namespace eFashionShop.ViewModels.WebAppViewModel
 {
     public class ProductDetailViewModel
     {
-        public List<ImageVm> FeaturedImages { get; set; }
+        public List<ProductImageViewModel> productImageViewModels { get; set; }
+        public ProductVm productVms { get; set; }
     }
 }

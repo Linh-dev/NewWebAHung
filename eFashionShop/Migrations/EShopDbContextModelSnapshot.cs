@@ -66,7 +66,7 @@ namespace eFashionShop.Migrations
                         new
                         {
                             Id = 1,
-                            ConcurrencyStamp = "ca758036-61b6-47a2-9618-654aa214f89f",
+                            ConcurrencyStamp = "7cda7f20-09ab-45af-ab89-f798bbc03276",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
@@ -145,7 +145,7 @@ namespace eFashionShop.Migrations
                         {
                             Id = 1,
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "318e838d-6a6f-47d4-90a7-da24b82ed4c7",
+                            ConcurrencyStamp = "1c8776e5-6293-4cc2-8741-d74f2c360506",
                             Dob = new DateTime(2020, 1, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "admin@gmail.com",
                             EmailConfirmed = true,
@@ -154,7 +154,7 @@ namespace eFashionShop.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "admin@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAEFqhcDuzp9SMpjLcjXIA6wmUs2Uwk0qlx5Rb1MH8bkwBzmlFvZyIWSbt2tM0eRs5tQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDLQH2HYmPYzILpX+6fUVg2VjG/S8tpFBgtd8Mnxis6xoQR20a268GYyL3SAyAXDog==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -255,7 +255,7 @@ namespace eFashionShop.Migrations
                     b.Property<string>("Details")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool?>("IsFeatured")
+                    b.Property<bool>("IsFeatured")
                         .HasColumnType("bit");
 
                     b.Property<string>("Localtion")
@@ -292,7 +292,7 @@ namespace eFashionShop.Migrations
                     b.Property<bool?>("IsDefault")
                         .HasColumnType("bit");
 
-                    b.Property<bool?>("IsFeatured")
+                    b.Property<bool>("IsFeatured")
                         .HasColumnType("bit");
 
                     b.Property<bool?>("IsOutstanding")
@@ -358,6 +358,40 @@ namespace eFashionShop.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Slides");
+                });
+
+            modelBuilder.Entity("eFashionShop.ViewModels.Catalog.Products.ProductUpdateRequest", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<double>("Area")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Customer")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Details")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsFeatured")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Localtion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ProductUpdateRequest");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>

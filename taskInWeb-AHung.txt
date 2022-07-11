@@ -1,7 +1,0 @@
-
-- sendMail
-
-*******
-
-- intergrate fb chat in web
-- thông tin các phần tin tức - văn bản cần thiết

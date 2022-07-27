@@ -48,21 +48,21 @@ namespace eFashionShop.Application.Images
 
         public async Task<bool> SetFeaturedImage(int id)
         {
-            var query = await _context.ProductImages.OrderBy(x => x.SortOrder).Where(x => x.IsFeatured == true).ToListAsync();
+            var query = await _context.ProductImages.OrderBy(x => x.SortOrder).Where(x => x.SortOrder != 999 && x.Id != id).ToListAsync();
             var image = await _context.ProductImages.FirstOrDefaultAsync(x => x.Id == id);
             image.IsFeatured = true;
             image.SortOrder = 0;
             _context.ProductImages.Update(image);
             for(int i = 0; i < query.Count; i++)
             {
-                if(i >= SystemConstants.ProductSettings.NumberOfFeaturedImages)
+                if(query[i].SortOrder >= 0 && query[i].SortOrder < SystemConstants.ProductSettings.NumberOfFeaturedImages) 
                 {
-                    query[i].IsFeatured = false;
-                    query[i].SortOrder = -1;
+                    query[i].SortOrder += 1;
                 }
                 else
                 {
-                    query[i].SortOrder += 1;
+                    query[i].IsFeatured = false;
+                    query[i].SortOrder = 999;
                 }
                 _context.ProductImages.Update(query[i]);
             }
@@ -111,7 +111,7 @@ namespace eFashionShop.Application.Images
         public async Task<PagedResult<ImageVm>> GetAll(GetManageImagePagingRequest request)
         {
             var data = new List<ImageVm>();
-            var query = _context.ProductImages.OrderBy(x => x.IsFeatured);
+            var query = _context.ProductImages.OrderBy(x => x.SortOrder);
             data = await query.Skip((request.PageIndex - 1) * request.PageSize)
                 .Take(request.PageSize)
                 .Select(x => new ImageVm()
@@ -119,7 +119,8 @@ namespace eFashionShop.Application.Images
                     Id = x.Id,
                     ImagePath = x.ImagePath,
                     Caption = x.Caption,
-                    IsFeatured = x.IsFeatured
+                    IsFeatured = x.IsFeatured,
+                    SortOder = x.SortOrder
                 }).ToListAsync();
             var totalRecords = await query.CountAsync();
             var result = new PagedResult<ImageVm>()

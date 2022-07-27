@@ -8,6 +8,7 @@ using eFashionShop.ViewModels.Catalog.Products;
 using eFashionShop.ViewModels.Common;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -69,25 +70,31 @@ namespace eFashionShop.Application.Images
 
         }
 
-        public async Task<bool> AddImage(ImageCreateRedVm red)
+        public async Task<bool> AddImage(List<ImageCreateRedVm> items)
         {
-            var resultImage = await _photoServiece.AddPhotoAsync(red.File);
-            if (resultImage == null) return false;
-            var image = new ProductImage
+            try
             {
-                PublicId = resultImage.PublicId,
-                ProductId = 0,
-                ImagePath = resultImage.SecureUrl.AbsoluteUri,
-                Caption = red.Caption,
-                IsDefault = null,
-                IsOutstanding = null,
-                DateCreated = System.DateTime.Now,
-                SortOrder = null,
-                FileSize = null,
-                IsFeatured = false
-            };
-            _context.ProductImages.Add(image);
-            return await _context.SaveChangesAsync() > 0;
+                foreach(var red in items)
+                {
+                    var resultImage = await _photoServiece.AddPhotoAsync(red.File);
+                    if (resultImage == null) return false;
+                    ProductImage image = new ProductImage();
+                    image.ImagePath = resultImage.SecureUrl.AbsoluteUri;
+                    image.PublicId = resultImage.PublicId;
+                    image.Caption = red.Caption;
+                    image.FileSize = 0;
+                    image.ProductId = 0;
+                    image.DateCreated = DateTime.Now;
+                    image.IsDefault = false;
+                    _context.ProductImages.Add(image);
+                }
+                return await _context.SaveChangesAsync() > 0;
+            }
+            catch(Exception ex)
+            {
+                throw new Exception();
+            }
+
         }
 
         public async Task<bool> DeleteImage(int id)

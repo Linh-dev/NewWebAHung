@@ -9,7 +9,7 @@ namespace eFashionShop.ViewModels.Catalog.ProductImages
     {
         public int Id { get; set; }
 
-        public int ProductId { get; set; }
+        public int? ProductId { get; set; }
 
         public string ImagePath { get; set; }
 

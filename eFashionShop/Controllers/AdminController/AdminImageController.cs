@@ -47,16 +47,18 @@ namespace eFashionShop.Controllers.AdminController
             if (images.Count < 1) return RedirectToAction("Create");
             try
             {
+                var res = new List<ImageCreateRedVm>();
                 foreach (var file in images)
                 {
-                    var res = new ImageCreateRedVm()
+                    var image = new ImageCreateRedVm()
                     {
                         Caption = "ảnh tự tạo",
                         File = file,
                         IsFeatured = false,
                     };
-                    await _imageService.AddImage(res);
+                    res.Add(image);
                 }
+                await _imageService.AddImage(res);
                 return RedirectToAction("Index");
             }
             catch(Exception ex)

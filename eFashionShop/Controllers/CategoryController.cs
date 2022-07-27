@@ -40,8 +40,10 @@ namespace eFashionShop.Controllers
         {
             var res = new ProductDetailViewModel()
             {
+                FeaturedProducts = await _productService.GetFeaturedProducts(SystemConstants.ProductSettings.NumberOfFeaturedProducts),
                 productImageViewModels = await _productService.GetListImages(id),
                 productVms = await _productService.GetById(id)
+                
             };
             return View(res);
         }

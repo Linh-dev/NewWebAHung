@@ -14,7 +14,6 @@
                     Email = "Null",
                     PhoneNumber = "Null",
                     Address = "Null",
-                    Hotline = "Null",
                     Website = "Null",
                     Message = "Null",
                     Default = false,
@@ -128,7 +127,7 @@
         </div>
     </nav>
         <div id="mainBody">
-            <div class="container px-5">
+            <div>
                 @RenderBody()
             </div>
         </div>
@@ -142,8 +141,6 @@
                     <p>@(contact.Address)</p>
 
                     <p>Tel: @(contact.PhoneNumber)</p>
-
-                    <p>Hotline: @(contact.Hotline)</p>
 
                     <p>E-mail: @(contact.Email)</p>
 

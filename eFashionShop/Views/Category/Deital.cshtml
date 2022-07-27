@@ -9,7 +9,7 @@
     }
 </div>
 
-<div class="pt-75 general-title bg-color">
+<div class="general-title bg-color">
     <h2>Dự án : @Model.productVms.Description</h2>
     <div class="title-devider"></div>
 </div>
@@ -55,7 +55,49 @@
                     </div>
                 </div>
             </div>
+            
+        <div class="container padding-bottom text-center contact-adress">
+            @foreach (var image in Model.productImageViewModels)
+            {
+                <div class="item">
+                    <img src='@image.ImagePath' alt='@image.Caption'>
+                </div>
+            }
+        </div>
         }
     }
+    <div class="general-title wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="200ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 200ms; animation-name: fadeInUp;"> 
+                    <h2>Dự án nổi bật</h2>
+                    <div class="title-devider"></div>
+                </div>
+        <div class="container-fluid projects" >
+        <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+            @foreach (var item in Model.FeaturedProducts)
+            {
+                <div class="col-sm-6 col-md-3">
+                    <div class="project-inner">
+                        <a href="/category/Deital/@item.Id">
+                            <div style="width:100%;height: 300px;background: url('@item.ImagePath');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
+                             alt='@item.Description'></div>
+                            <div class="project-caption">
+
+                                <div class="project-details">
+                                    <p><i class="fa fa-plus fa-lg"></i></p>
+                                    <h3>@item.Description</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="all-projects text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+        <a href="/category" class="btn orange-btn">
+            Xem tất cả dự án
+        </a>
+    </div>
 </div>
+
+
 

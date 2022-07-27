@@ -355,6 +355,7 @@ namespace eFashionShop.Application.Products
                     Id = x.p.Id,
                     Name = x.p.Name,
                     Details = x.p.Details,
+                    Description = x.p.Description,
                     ImagePath = x.i.ImagePath,
                     Customer = x.p.Customer,
                     Localtion = x.p.Localtion,

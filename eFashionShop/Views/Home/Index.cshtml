@@ -9,8 +9,8 @@
     }
 </div>
 
-<div class="site-wrapper">
-    <div class="container text-center">
+<div class="site-wrapper" style="padding-top: 20px !important">
+    <div class="container px-5 text-center">
         <div class="general-title wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
             <h2>Về chúng tôi</h2>
             <div class="title-devider"></div>
@@ -19,9 +19,9 @@
             <div class="col-md-10 col-md-offset-1">
                 <p>
                 <p style="text-align:center">
-                    <span style="font-family:Arial,Helvetica,sans-serif">
-                        Công ty cổ phần HTcom - Nhà đẹp.
-                    </span>
+                    <h4 style="font-family:Arial,Helvetica,sans-serif">
+                        Công ty HTcom chuyên về lĩnh vực thiết kế nhà ở, thiết kế nội thất thông minh. Với hơn 5 năm kinh nghiệm làm việc trong nghề, HTcom mang đến cho khách hàng giải pháp thiết kế không gian đẹp, tối ưu về chi phí. Đội ngũ chuyên viên thiết kế của HTcom được đào tạo chuyên nghiệp, đáp ứng nhu cầu của khách hàng về thiết kế nhà, nội thất đáp ứng các tiêu chí về công năng và thẩm mỹ đẹp. 
+                    </h4>
                 </p>
 
                 <p style="text-align:center">&nbsp;</p>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <!-- Projects -->
-    <div class="container-fluid projects">
+    <div class="container-fluid projects" >
         <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
             @foreach (var item in Model.FeaturedProducts)
             {
@@ -37,162 +37,18 @@
                     <div class="project-inner">
                         <a href="/category/Deital/@item.Id">
                             <div style="width:100%;height: 300px;background: url('@item.ImagePath');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt='@item.Details'></div>
+                             alt='@item.Description'></div>
                             <div class="project-caption">
 
                                 <div class="project-details">
                                     <p><i class="fa fa-plus fa-lg"></i></p>
-                                    <h3>@item.Details</h3>
+                                    <h3>@item.Description</h3>
                                 </div>
                             </div>
                         </a>
                     </div>
                 </div>
             }
-@*            <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href="/du-an/thiet-ke-thi-cong-noi-that-van-phong/van-phong-tone-vang-164">
-
-                        <div style="width:100%;height: 300px;background: url('/media/product/16264986755116.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt="Văn phòng tone vàng"></div>
-                        <div class="project-caption">
-
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>Văn phòng tone vàng</h3>
-                                <p><small>2021-07-17 12:11:15</small></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href="/du-an/thiet-ke-noi-that-cong-trinh-nha-o-dan-dung/phong-ngu-phong-cach-hien-dai-tan-co-dien-163">
-
-                        <div style="width:100%;height: 300px;background: url('/media/product/16263340718526.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt="Phòng ngủ - Phong cách hiện đại | Tân cổ điển"></div>
-                        <div class="project-caption">
-
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>Phòng ngủ - Phong cách hiện đại | Tân cổ điển</h3>
-                                <p><small>2021-07-15 14:27:52</small></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href="/du-an/thiet-ke-noi-that-cong-trinh-nha-o-dan-dung/chung-cu-thien-nien-ky-ha-dong-162">
-
-                        <div style="width:100%;height: 300px;background: url('/media/product/16263338129953.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt="Chung cư Thiên Niên Kỷ Hà Đông"></div>
-                        <div class="project-caption">
-
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>Chung cư Thiên Niên Kỷ Hà Đông</h3>
-                                <p><small>2021-07-15 14:23:33</small></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href="/du-an/thiet-ke-kien-truc/biet-thu-lien-ke-nguyen-thi-dinh-hn-161">
-
-                        <div style="width:100%;height: 300px;background: url('/media/product/16251275738259.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt="Biệt thự liền kề - Nguyễn Thị Định, HN"></div>
-                        <div class="project-caption">
-
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>Biệt thự liền kề - Nguyễn Thị Định, HN</h3>
-                                <p><small>2021-07-01 15:19:34</small></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href="/du-an/thiet-ke-kien-truc/nha-pho-bat-trang-160">
-
-                        <div style="width:100%;height: 300px;background: url('/media/product/16245964035497.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt="Nhà phố - Bát Tràng"></div>
-                        <div class="project-caption">
-
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>Nhà phố - Bát Tràng</h3>
-                                <p><small>2021-06-25 11:46:47</small></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href="/du-an/thiet-ke-noi-that-cong-trinh-nha-o-dan-dung/nha-chi-huong-159">
-
-                        <div style="width:100%;height: 300px;background: url('/media/product/16233132718098.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt="Nhà chị Hương"></div>
-                        <div class="project-caption">
-
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>Nhà chị Hương</h3>
-                                <p><small>2021-06-10 15:21:11</small></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href="/du-an/thiet-ke-noi-that-cong-trinh-nha-o-dan-dung/nha-chi-uyen-158">
-
-                        <div style="width:100%;height: 300px;background: url('/media/product/16230822984989.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt="Nhà chị Uyên"></div>
-                        <div class="project-caption">
-
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>Nhà chị Uyên</h3>
-                                <p><small>2021-06-07 23:11:39</small></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-                <div class="project-inner">
-                    <a href="/du-an/thiet-ke-thi-cong-noi-that-biet-thu/biet-thu-vinhomes-riverside-157">
-
-                        <div style="width:100%;height: 300px;background: url('/media/product/16226989528834.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
-                             alt="Biệt thự Vinhomes Riverside"></div>
-                        <div class="project-caption">
-
-                            <div class="project-details">
-                                <p><i class="fa fa-plus fa-lg"></i></p>
-                                <h3>Biệt thự Vinhomes Riverside</h3>
-                                <p><small>2021-06-03 12:42:33</small></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>*@
-
         </div>
     </div>
     <div class="all-projects text-center wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
@@ -214,17 +70,17 @@
 
                 <p style="margin-left:0in; margin-right:0in; text-align:center">
                     <span style="font-size:14px">
-                        <span style="font-family:Arial,Helvetica,sans-serif">
-                            Công ty cổ phần kiến trúc HTCom. Với các chuyên gia, kiến trúc sư dày dặn kinh nghiệm dẫn dắt cùng đội ngũ thiết kế trẻ có nhiều khả năng sáng tạo, công ty chúng tôi cam kết mang đến cho khách hàng những sản phẩm và dịch vụ tốt nhất.
-                        </span>
+                        <h4 style="font-family:Arial,Helvetica,sans-serif">
+                           Công ty thiết kế THcom cung cấp dịch vụ thiết kế nội ngoại thất cho: Nhà ở, căn hộ, khách sạn, nhà hàng, quán bar… Chúng tôi không ngừng cập nhật những xu hướng kiến trúc mới, thiết kế nội thất đẹp, thông minh làm hài lòng khách hàng. Với đội ngũ chuyên gia và kỹ sư thiết kế xây dựng giàu kinh nghiệm HTcom sẽ mang lại cho khách hàng giải pháp nhà đẹp, thông minh và trọn vẹn. Dịch vụ thiết kế nhà ở, nội - ngoại thất HTcom chuyên nghiệp, tận tâm sẽ là sự lựa chọn hoàn hảo cho căn nhà của bạn.
+                        </h4>
                     </span>
                 </p>
 
                 <p style="margin-left:0in; margin-right:0in; text-align:center">
                     <span style="font-size:14px">
-                        <span style="font-family:Arial,Helvetica,sans-serif">
-                            HTCom xin chân thành cảm ơn các khách hàng đã, đang và sẽ sử dụng sản phẩm dịch vụ của chúng tôi. Chúng tôi luôn mong muốn được phục vụ khách hàng ngày càng tốt hơn.
-                        </span>
+                        <h4 style="font-family:Arial,Helvetica,sans-serif">
+                            Xin chân thành cảm ơn quý khách đã sử dụng dịch vụ của HTcom. Chúng tôi luôn mong muốn được phục vụ khách hàng, hoàn thiện để có dịch vụ tốt hơn nữa.
+                        </h4>
                     </span>
                 </p>
 
@@ -240,9 +96,9 @@
             </div>
 
             <div class="col-sm-6 col-md-2 col-xs-6">
-                <a href="/dich-vu/quy-trinh-thiet-ke">
+                <a>
                     <div class="icon-a"
-                         style="width:100%;height: 190px;background: url('/media/article_cat/15399205978279.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
+                         style="width:100%;height: 190px;background: url('/images/quy-trinh-thiet-ke.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
                          alt="Quy trình thiết kế"></div>
                 </a>
                 <div class="service-title">
@@ -251,9 +107,9 @@
             </div>
 
             <div class="col-sm-6 col-md-2 col-xs-6">
-                <a href="/dich-vu/quy-trinh-thi-cong">
+                <a>
                     <div class="icon-a"
-                         style="width:100%;height: 190px;background: url('/media/article_cat/15399206085985.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
+                         style="width:100%;height: 190px;background: url('/images/quy-trinh-thi-cong.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
                          alt="Quy trình thi công"></div>
                 </a>
                 <div class="service-title">
@@ -262,9 +118,9 @@
             </div>
 
             <div class="col-sm-6 col-md-2 col-xs-6">
-                <a href="/dich-vu/hop-dong-thi-cong-mau">
+                <a>
                     <div class="icon-a"
-                         style="width:100%;height: 190px;background: url('/media/article_cat/15399206161319.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
+                         style="width:100%;height: 190px;background: url('/images/hop-dong-mau.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
                          alt="Hợp đồng mẫu"></div>
                 </a>
                 <div class="service-title">
@@ -273,9 +129,9 @@
             </div>
 
             <div class="col-sm-6 col-md-2 col-xs-6">
-                <a href="/dich-vu/bao-gia">
+                <a>
                     <div class="icon-a"
-                         style="width:100%;height: 190px;background: url('/media/article_cat/15399206240052.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
+                         style="width:100%;height: 190px;background: url('/images/bao-gia.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
                          alt="Báo giá"></div>
                 </a>
                 <div class="service-title">
@@ -284,9 +140,9 @@
             </div>
 
             <div class="col-sm-6 col-md-2 col-xs-6">
-                <a href="/dich-vu/khach-hang">
+                <a>
                     <div class="icon-a"
-                         style="width:100%;height: 190px;background: url('/media/article_cat/15399206323039.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
+                         style="width:100%;height: 190px;background: url('/images/khach-hang.jpg');background-size: cover;background-position: center center;background-repeat: no-repeat;background-color: #fff;"
                          alt="Khách hàng"></div>
                 </a>
                 <div class="service-title">
@@ -297,8 +153,8 @@
             </div>
         </div>
         <div class=" padding-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-            <a href="/dich-vu" class="btn black-btn">
-                Xem tất cả
+            <a href="/service" class="btn black-btn">
+                Xem dịch vụ
             </a>
         </div>
     </div>

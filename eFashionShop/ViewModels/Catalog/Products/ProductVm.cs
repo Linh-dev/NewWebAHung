@@ -17,6 +17,6 @@ namespace eFashionShop.ViewModels.Catalog.Products
         public string Localtion { set; get; }
         public double Area { get; set; }
         public string ThumbnailImage { get; set; }
-        public List<string> Categories { get; set; } = new List<string>();
+        public List<int> Categories { get; set; } = new List<int>();
     }
 }

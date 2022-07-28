@@ -12,5 +12,6 @@ namespace eFashionShop.Application.Categories
         Task<bool> Create(CategoryCreateVm categoryVm);
         Task<bool> Delete(int id);
         Task<List<CategoryVm>> GetListParent();
+        Task<bool> Edit(CategoryUpdateVm categoryUpdateVm);
     }
 }

@@ -66,6 +66,6 @@ namespace eFashionShop.Data.EF
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<Slide> Slides { get; set; }
-        public DbSet<eFashionShop.ViewModels.Catalog.Products.ProductUpdateRequest> ProductUpdateRequest { get; set; }
+
     }
 }

@@ -179,7 +179,7 @@ namespace eFashionShop.Controllers.AdminController
                 {
                     Id = role.Id.ToString(),
                     Name = role.Name,
-                    Selected = productObj.Categories.Contains(role.Name)
+                    Selected = productObj.Categories.Contains(role.Id)
                 });
             }
             return categoryAssignRequest;

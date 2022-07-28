@@ -61,6 +61,36 @@ namespace eFashionShop.Controllers.AdminController
             return View(res);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            var res = await _categoryService.GetById(id);
+            var ListCategoryParent = await _categoryService.GetListParent();
+            ViewBag.ListCategoryParent = ListCategoryParent;
+            return View(res);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Edit(CategoryUpdateVm res)
+        {
+            var ListCategoryParent = await _categoryService.GetListParent();
+            if (!ModelState.IsValid)
+            {
+                ViewBag.ListCategoryParent = ListCategoryParent;
+                return View(res);
+            }
+
+            var result = _categoryService.Edit(res);
+            if (result.Result)
+            {
+                TempData["result"] = "Thêm mới thành công";
+                return RedirectToAction("Index");
+            }
+            ModelState.AddModelError("", "Thêm mới thất bại");
+            ViewBag.ListCategoryParent = ListCategoryParent;
+            return View(res);
+        }
+
 
     }
 }

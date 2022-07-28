@@ -7,27 +7,34 @@ using Microsoft.EntityFrameworkCore;
 using eFashionShop.Exceptions;
 using eFashionShop.Data.Entities;
 using eFashionShop.Data.Enums;
+using eFashionShop.Application.CloudinaryService;
 
 namespace eFashionShop.Application.Categories
 {
     public class CategoryService : ICategoryService
     {
         private readonly EShopDbContext _context;
+        private readonly IPhotoService _photoService;
 
-        public CategoryService(EShopDbContext context)
+        public CategoryService(EShopDbContext context, IPhotoService photoService)
         {
             _context = context;
+            _photoService = photoService;
         }
 
         public async Task<bool> Create(CategoryCreateVm categoryVm)
         {
             if (categoryVm == null) throw new EShopException("Create fail!");
+            if(categoryVm.File == null) throw new EShopException("Create fail!");
+            var image = await _photoService.AddPhotoAsync(categoryVm.File);
             var category = new Category
             {
                 Name = categoryVm.Name,
                 IsShowOnHome = categoryVm.IsShowOnHome,
                 ParentId = categoryVm.ParentId,
-                Status = categoryVm.Status
+                Status = Status.Active,
+                ImagePublishId = image.PublicId,
+                ImageUrl = image.SecureUrl.AbsoluteUri
             };
             _context.Categories.Add(category);
             return await _context.SaveChangesAsync() > 0;
@@ -38,6 +45,32 @@ namespace eFashionShop.Application.Categories
             var category = _context.Categories.Find(id);
             if (category == null) throw new EShopException("Delete fail!");
             _context.Categories.Remove(category);
+            if (!string.IsNullOrEmpty(category.ImagePublishId)) await _photoService.DeletePhotoAsync(category.ImagePublishId);
+            var childCategories = await _context.Categories.Where(x => x.ParentId == category.Id).ToListAsync();
+            if(childCategories.Count > 0)
+            {
+                foreach(var c in childCategories)
+                {
+                    _context.Categories.Remove(c);
+                    if (!string.IsNullOrEmpty(c.ImagePublishId)) await _photoService.DeletePhotoAsync(c.ImagePublishId);
+                }
+            }
+            return await _context.SaveChangesAsync() > 0;
+        }
+
+        public async Task<bool> Edit(CategoryUpdateVm categoryUpdateVm)
+        {
+            var category = _context.Categories.Find(categoryUpdateVm.Id);
+            if (category == null) throw new EShopException("Update fail!");
+            category.Name = categoryUpdateVm.Name;
+            category.IsShowOnHome = categoryUpdateVm.IsShowOnHome;
+            category.ParentId = category.ParentId;
+            if (categoryUpdateVm.File != null)
+            {
+                var image = await _photoService.AddPhotoAsync(categoryUpdateVm.File);
+                category.ImagePublishId = image.PublicId;
+                category.ImageUrl = image.SecureUrl.AbsoluteUri;
+            }
             return await _context.SaveChangesAsync() > 0;
         }
 
@@ -57,17 +90,19 @@ namespace eFashionShop.Application.Categories
         {
             var query = from c in _context.Categories where c.Id == id  
                         select new { c };
-            return await query.Select(x => new CategoryVm()
+            var res = await query.Select(x => new CategoryVm()
             {
                 Id = x.c.Id,
                 Name = x.c.Name,
-                ParentId = x.c.ParentId
+                ParentId = x.c.ParentId,
+                ImageUrl = x.c.ImageUrl
             }).FirstOrDefaultAsync();
+            return res;
         }
 
         public async Task<List<CategoryVm>> GetListParent()
         {
-            var query = from c in _context.Categories where c.ParentId == null && c.Status == Status.Active
+            var query = from c in _context.Categories where c.ParentId == -1
                         select new { c };
             var x = await query.Select(x => new CategoryVm()
             {

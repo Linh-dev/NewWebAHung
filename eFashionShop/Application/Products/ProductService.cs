@@ -208,6 +208,8 @@ namespace eFashionShop.Application.Products
         {
             var product = await _context.Products.FindAsync(productId);
 
+            var categories = await _context.ProductInCategories.Where(x => x.ProductId == productId).Select(x => x.CategoryId).ToListAsync();
+
             var image = await _context.ProductImages.Where(x => x.ProductId == productId && x.IsDefault == true).FirstOrDefaultAsync();
 
             var productViewModel = new ProductVm()
@@ -221,7 +223,8 @@ namespace eFashionShop.Application.Products
                 Localtion = product != null ? product.Localtion : null,
                 Area = product != null ? product.Area : 0,
                 ThumbnailImage = image != null ? image.ImagePath : "no-image.jpg",
-                IsFeatured = product.IsFeatured
+                IsFeatured = product.IsFeatured,
+                Categories = categories
             };
             return productViewModel;
         }
@@ -365,7 +368,6 @@ namespace eFashionShop.Application.Products
 
             return data;
         }
-
         public async Task<int> AddListImages(ImagesCreateVm request)
         {
             if (request.ImageFiles.Count > 0)

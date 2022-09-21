@@ -46,10 +46,11 @@ namespace eFashionShop.Application.Categories
             if (category == null) throw new EShopException("Delete fail!");
             _context.Categories.Remove(category);
             if (!string.IsNullOrEmpty(category.ImagePublishId)) await _photoService.DeletePhotoAsync(category.ImagePublishId);
-            var childCategories = await _context.Categories.Where(x => x.ParentId == category.Id).ToListAsync();
-            if(childCategories.Count > 0)
+            var childCategories = _context.Categories.Where(x => x.ParentId == category.Id);
+            if(childCategories.Any())
             {
-                foreach(var c in childCategories)
+                var childCategories1 = await childCategories.ToListAsync();
+                foreach (var c in childCategories1)
                 {
                     _context.Categories.Remove(c);
                     if (!string.IsNullOrEmpty(c.ImagePublishId)) await _photoService.DeletePhotoAsync(c.ImagePublishId);
@@ -82,7 +83,9 @@ namespace eFashionShop.Application.Categories
             {
                 Id = x.c.Id,
                 Name = x.c.Name,
-                ParentId = x.c.ParentId
+                ParentId = x.c.ParentId,
+                ImagePublishId = x.c.ImagePublishId,
+                ImageUrl = x.c.ImageUrl
             }).ToListAsync();
         }
 
@@ -96,6 +99,21 @@ namespace eFashionShop.Application.Categories
                 Name = x.c.Name,
                 ParentId = x.c.ParentId,
                 ImageUrl = x.c.ImageUrl
+            }).FirstOrDefaultAsync();
+            return res;
+        }
+
+        public async Task<CategoryUpdateVm> GetByIdForUpdate(int id)
+        {
+            var query = from c in _context.Categories
+                        where c.Id == id
+                        select new { c };
+            var res = await query.Select(x => new CategoryUpdateVm()
+            {
+                Id = x.c.Id,
+                Name = x.c.Name,
+                ParentId = x.c.ParentId,
+                IsShowOnHome = x.c.IsShowOnHome
             }).FirstOrDefaultAsync();
             return res;
         }

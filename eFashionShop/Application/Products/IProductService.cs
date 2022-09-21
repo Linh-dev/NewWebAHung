@@ -19,6 +19,7 @@ namespace eFashionShop.Application.Products
 
         Task<PagedResult<ProductVm>> GetAllPaging(GetManageProductPagingRequest request);
         Task<List<ProductVm>> GetAll();
+        Task<List<ProductVm>> GetAllByCategoriesId(int categoriesId);
         Task<int> AddImage(int productId, ProductImageCreateRequest request);
         Task<int> AddListImages(ImagesCreateVm request);
         Task<int> SetMainImage(int imageId, int productId);

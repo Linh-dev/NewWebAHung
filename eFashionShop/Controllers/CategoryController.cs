@@ -31,20 +31,18 @@ namespace eFashionShop.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var data = await _productService.GetAll();
+            var data = await _categoryService.GetAll();
             return View(data);
         }
 
         [HttpGet]
         public async Task<IActionResult> Deital(int id)
         {
-            var res = new ProductDetailViewModel()
-            {
-                FeaturedProducts = await _productService.GetFeaturedProducts(SystemConstants.ProductSettings.NumberOfFeaturedProducts),
-                productImageViewModels = await _productService.GetListImages(id),
-                productVms = await _productService.GetById(id)
-                
-            };
+            var res = await _productService.GetAllByCategoriesId(id);
+            var name = "Danh sách";
+            var categories = await _categoryService.GetById(id);
+            if (categories != null) name = categories.Name;
+            ViewBag.name = name;
             return View(res);
         }
     }

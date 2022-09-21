@@ -99,7 +99,7 @@ a:focus {
 .title-devider{
 	border-bottom: 2px solid #ff5733;
 	display: block;
-	width: 100px;
+	width: 200px;
 	margin: auto;
 	margin-bottom: 40px;
 }
@@ -149,9 +149,9 @@ a:focus {
 
 ------------------------------------------------------- */
 
-.navbar-nav{
-    padding-top: 25px;
-    padding-left: 227px;
+.navbar-nav {
+	padding-top: 25px;
+	float: right;
 }
 .navbar-brand{
 	padding: 5px;		

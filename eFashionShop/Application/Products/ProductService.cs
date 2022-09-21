@@ -228,6 +228,33 @@ namespace eFashionShop.Application.Products
             };
             return productViewModel;
         }
+        public async Task<List<ProductVm>> GetAllByCategoriesId(int categoriesId)
+        {
+            var data = new List<ProductVm>();
+            //list produc
+            var producs = await _context.ProductInCategories.Where(x => x.CategoryId == categoriesId).Select(x => x.Product).ToListAsync();
+
+            if(producs.Any())
+            {
+                foreach( Product product in producs)
+                {
+                    var image = await _context.ProductImages.Where(i => i.ProductId == product.Id && i.IsDefault == true).FirstOrDefaultAsync();
+                    data.Add(new ProductVm()
+                    {
+                        Id = product.Id,
+                        Name = product.Name,
+                        DateCreated = product.DateCreated,
+                        Description = product.Description,
+                        Details = product.Details,
+                        Customer = product.Customer,
+                        Localtion = product.Localtion,
+                        ThumbnailImage = image != null ? image.ImagePath : "",
+                        Area = product.Area,
+                    });
+                }
+            }
+            return data;
+        }
 
         public async Task<ProductImageViewModel> GetImageById(int imageId)
         {

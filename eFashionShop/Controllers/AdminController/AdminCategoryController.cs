@@ -41,7 +41,8 @@ namespace eFashionShop.Controllers.AdminController
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(CategoryCreateVm res)
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Create([FromForm] CategoryCreateVm res)
         {
             var ListCategoryParent = await _categoryService.GetListParent();
             if (!ModelState.IsValid)
@@ -64,14 +65,15 @@ namespace eFashionShop.Controllers.AdminController
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
-            var res = await _categoryService.GetById(id);
+            var res = await _categoryService.GetByIdForUpdate(id);
             var ListCategoryParent = await _categoryService.GetListParent();
             ViewBag.ListCategoryParent = ListCategoryParent;
             return View(res);
         }
 
-        [HttpPut]
-        public async Task<IActionResult> Edit(CategoryUpdateVm res)
+        [HttpPost]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Edit([FromForm] CategoryUpdateVm res)
         {
             var ListCategoryParent = await _categoryService.GetListParent();
             if (!ModelState.IsValid)
@@ -90,7 +92,5 @@ namespace eFashionShop.Controllers.AdminController
             ViewBag.ListCategoryParent = ListCategoryParent;
             return View(res);
         }
-
-
     }
 }

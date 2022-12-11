@@ -535,8 +535,6 @@ E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\win-arm\native\Microsoft
 E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
-E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
 E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 E:\NewWebAHung\eFashionShop\bin\Release\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll

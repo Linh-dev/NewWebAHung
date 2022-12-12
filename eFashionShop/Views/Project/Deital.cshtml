@@ -10,7 +10,7 @@
 
     h2 {
         color: #fff;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
         text-align: center;
         font-weight: 100;
     }
@@ -181,43 +181,37 @@
     @{
         if (Model.productVms != null)
         {
-            <div class="container padding-bottom text-center contact-adress">
+                <div class="container padding-bottom text-center contact-adress">
 
-                <p>@Model.productVms.Details</p>
+                    <p>@Model.productVms.Details</p>
 
-                <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-                    <div class="col-sm-4 col-md-4">
-                        <h3>Khách Hàng</h3>
-                        <address>
-                            <p>&nbsp;</p>
-
-                            <h4>
-                                @Model.productVms.Customer
-                            </h4>
-                        </address>
-                    </div>
-                    <div class="col-sm-4 col-md-4">
-                        <h3>Vị trí</h3>
-                        <address>
-                            <p>&nbsp;</p>
-
-                            <h4>
-                                @Model.productVms.Localtion
-                            </h4>
-                        </address>
-                    </div>
-                    <div class="col-sm-4 col-md-4">
-                        <h3>Diện Tích</h3>
-                        <address>
-                            <p>&nbsp;</p>
-
-                            <h4>
-                                @Model.productVms.Area m2
-                            </h4>
-                        </address>
+                    <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+                        <div class="col-sm-4 col-md-4">
+                            <h3>Khách Hàng</h3>
+                            <address>
+                                <h4>
+                                    @Model.productVms.Customer
+                                </h4>
+                            </address>
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                            <h3>Vị trí</h3>
+                            <address>
+                                <h4>
+                                    @Model.productVms.Localtion
+                                </h4>
+                            </address>
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                            <h3>Diện Tích</h3>
+                            <address>
+                                <h4>
+                                    @Model.productVms.Area m2
+                                </h4>
+                            </address>
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
         }

@@ -2240,4 +2240,3 @@ E:\NewWebAHung\eFashionShop\obj\Debug\net6.0\eFashionShop.dll
 E:\NewWebAHung\eFashionShop\obj\Debug\net6.0\ref\eFashionShop.dll
 E:\NewWebAHung\eFashionShop\obj\Debug\net6.0\eFashionShop.pdb
 E:\NewWebAHung\eFashionShop\obj\Debug\net6.0\eFashionShop.genruntimeconfig.cache
-E:\NewWebAHung\eFashionShop\obj\Debug\net6.0\eFashionShop.csproj.AssemblyReference.cache

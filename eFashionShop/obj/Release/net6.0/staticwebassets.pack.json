@@ -1,0 +1,1585 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\adminTemplate\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\css\\styles.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\css\\styles.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\CHANGES.md",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\CHANGES.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\LICENSE.md",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\README.md",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\README.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\SECURITY.md",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\SECURITY.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\adapters\\jquery.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\adapters\\jquery.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\bender-runner.config.json",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\bender-runner.config.json"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\build-config.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\build-config.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\config.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\config.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\contents.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\contents.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\af.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\af.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ar.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\az.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\az.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\bg.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\bn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\bn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\bs.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\bs.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ca.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\cs.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\cy.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\da.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\da.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\de-ch.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\de.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\de.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\el.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\el.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\en-au.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\en-ca.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\en-gb.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\en.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\en.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\eo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\es-mx.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\es.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\es.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\et.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\et.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\eu.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\fa.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\fi.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\fo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\fr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\gl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\gu.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\he.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\he.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\hi.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\hr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\hu.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\id.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\id.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\is.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\is.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\it.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\it.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ja.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ka.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ka.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\km.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\km.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ko.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ku.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\lt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\lv.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\mk.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\mn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ms.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ms.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\nb.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\nl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\no.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\no.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\oc.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\pl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\pt-br.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\pt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ro.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ru.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\si.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\si.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\sk.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\sl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\sq.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\sr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\sv.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\th.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\th.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\tr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\tt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\ug.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\uk.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\vi.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\lang\\zh.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\a11yhelp.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\gu.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hi.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mk.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\mn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\a11yhelp\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\about\\dialogs\\about.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\about\\dialogs\\about.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\about\\dialogs\\hidpi\\logo_ckeditor.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\about\\dialogs\\logo_ckeditor.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\clipboard\\dialogs\\paste.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\dialog\\dialogDefinition.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\dialog\\dialogDefinition.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\dialog\\styles\\dialog.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\dialog\\styles\\dialog.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\icons.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\icons.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\icons_hidpi.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\image\\dialogs\\image.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\image\\dialogs\\image.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\image\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\image\\images\\noimage.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\link\\dialogs\\anchor.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\link\\dialogs\\anchor.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\link\\dialogs\\link.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\link\\dialogs\\link.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\link\\images\\anchor.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\link\\images\\anchor.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\link\\images\\hidpi\\anchor.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon-rtl.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\magicline\\images\\hidpi\\icon.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\magicline\\images\\icon-rtl.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\magicline\\images\\icon.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\magicline\\images\\icon.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\pastefromgdocs\\filter\\default.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\pastefromlibreoffice\\filter\\default.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\pastefromword\\filter\\default.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\pastefromword\\filter\\default.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\pastetools\\filter\\common.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\pastetools\\filter\\common.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\pastetools\\filter\\image.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\pastetools\\filter\\image.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\CHANGELOG.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\LICENSE.md",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\README.md",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\README.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\dialogs\\dialog.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\dialogs\\options.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\dialogs\\options.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\dialogs\\toolbar.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\scayt\\skins\\moono-lisa\\scayt.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\_translationstatus.txt"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\af.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ar.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\az.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\bg.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ca.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cs.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\cy.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\da.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de-ch.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\de.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\el.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-au.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-ca.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en-gb.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\en.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es-mx.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\es.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\et.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\eu.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fa.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fi.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr-ca.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\fr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\gl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\he.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\hu.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\id.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\it.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ja.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\km.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ko.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ku.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\lv.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nb.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\nl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\no.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\oc.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt-br.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\pt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ro.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ru.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\si.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sk.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sl.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sq.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr-latn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\sv.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\th.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tr.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\tt.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\ug.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\uk.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\vi.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh-cn.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\lang\\zh.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\specialchar\\dialogs\\specialchar.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\table\\dialogs\\table.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\table\\dialogs\\table.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\tableselection\\styles\\tableselection.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\tabletools\\dialogs\\tableCell.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\plugins\\widget\\images\\handle.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\plugins\\widget\\images\\handle.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\css\\samples.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\css\\samples.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\img\\github-top.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\img\\github-top.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\img\\header-bg.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\img\\header-bg.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\img\\header-separator.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\img\\header-separator.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\img\\logo.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\img\\logo.svg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\img\\navigation-tip.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\img\\navigation-tip.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\index.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\index.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\js\\sample.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\js\\sample.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\js\\sf.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\js\\sf.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\ajax.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\ajax.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\api.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\api.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\appendto.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\appendto.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\inlineall\\logo.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\outputxhtml\\outputxhtml.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\posteddata.php",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\posteddata.php"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\sample.jpg",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\sample.jpg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\assets\\uilanguages\\languages.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\datafiltering.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\datafiltering.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\dialog\\assets\\my_dialog.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\dialog\\dialog.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\dialog\\dialog.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\divreplace.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\divreplace.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\enterkey\\enterkey.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\enterkey\\enterkey.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\htmlwriter\\outputhtml.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\index.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\index.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\inlineall.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\inlineall.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\inlinebycode.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\inlinebycode.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\inlinetextarea.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\inlinetextarea.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\jquery.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\jquery.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\magicline\\magicline.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\magicline\\magicline.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\readonly.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\readonly.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\replacebyclass.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\replacebyclass.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\replacebycode.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\replacebycode.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\sample.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\sample.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\sample.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\sample.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\sample_posteddata.php",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\sample_posteddata.php"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\tabindex.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\tabindex.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\toolbar\\toolbar.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\toolbar\\toolbar.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\uicolor.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\uicolor.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\uilanguages.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\uilanguages.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\wysiwygarea\\fullpage.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\old\\xhtmlstyle.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\old\\xhtmlstyle.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\css\\fontello.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\config.json"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.eot"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.svg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.ttf"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\font\\fontello.woff"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\index.html",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\index.html"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\abstracttoolbarmodifier.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\fulltoolbareditor.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbarmodifier.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\js\\toolbartextmodifier.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\LICENSE",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\codemirror.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\javascript.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\neo.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\samples\\toolbarconfigurator\\lib\\codemirror\\show-hint.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\dialog.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\dialog.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\dialog_ie.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\dialog_ie.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\dialog_ie8.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\dialog_iequirks.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor_gecko.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor_gecko.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor_ie.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor_ie.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor_ie8.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor_ie8.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\editor_iequirks.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\icons.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\icons.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\icons_hidpi.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\arrow.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\arrow.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\close.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\close.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\close.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock-open.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\lock.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\hidpi\\refresh.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\lock-open.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\lock.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\lock.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\refresh.png",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\refresh.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\images\\spinner.gif"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\readme.md",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\skins\\moono-lisa\\readme.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\styles.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\styles.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\ckeditor\\vendor\\promise.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\ckeditor\\vendor\\promise.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\adminTemplate\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\adminTemplate\\js\\scripts.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\images\\bao-gia.jpg",
+      "PackagePath": "staticwebassets\\images\\bao-gia.jpg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\images\\hop-dong-mau.jpg",
+      "PackagePath": "staticwebassets\\images\\hop-dong-mau.jpg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\images\\khach-hang.jpg",
+      "PackagePath": "staticwebassets\\images\\khach-hang.jpg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\images\\quy-trinh-thi-cong.jpg",
+      "PackagePath": "staticwebassets\\images\\quy-trinh-thi-cong.jpg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\images\\quy-trinh-thiet-ke.jpg",
+      "PackagePath": "staticwebassets\\images\\quy-trinh-thiet-ke.jpg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\artviet\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\themes\\artviet\\assets\\images\\next.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\artviet\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\themes\\artviet\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\artviet\\logo.jpg",
+      "PackagePath": "staticwebassets\\themes\\artviet\\logo.jpg"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\themes\\css\\animate.min.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\themes\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\house.css",
+      "PackagePath": "staticwebassets\\themes\\css\\house.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\themes\\css\\lightbox.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\themes\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\themes\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\themes\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\themes\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\house.js",
+      "PackagePath": "staticwebassets\\themes\\js\\house.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\themes\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\themes\\js\\lightbox.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\themes\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\LinhLd\\NewWebAHung\\eFashionShop\\wwwroot\\themes\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\themes\\js\\wow.min.js"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.eFashionShop.props",
+      "PackagePath": "build\\eFashionShop.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.eFashionShop.props",
+      "PackagePath": "buildMultiTargeting\\eFashionShop.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.eFashionShop.props",
+      "PackagePath": "buildTransitive\\eFashionShop.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.eFashionShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
